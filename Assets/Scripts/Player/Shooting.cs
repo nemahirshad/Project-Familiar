@@ -10,6 +10,11 @@ public class Shooting : MonoBehaviour
 
     public float bulletForce = 10f;
 
+    private void Start()
+    {
+        myStats = GetComponent<PlayerStats>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -23,7 +28,7 @@ public class Shooting : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        //bullet.GetComponent<Bullet>().damage = myStats.damage;
+        bullet.GetComponent<Bullet>().damage = myStats.damage;
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
 

@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public float lifetime;
 
-    float damage;
+    public int damage;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
 
         if (collision.CompareTag("Enemies"))
         {
-            //collision.transform.GetComponent<EnemyStats>().TakeDamage(damage);
+            collision.transform.GetComponent<EnemyStats>().TakeDamage(damage);
         }
     }
 }

@@ -14,28 +14,27 @@ public class EnemyAI : MonoBehaviour
 
     States currentState;
 
-    public GameObject player;
+    EnemyStats myStats;
 
-    public int hp;
-    public int damage;
+    public GameObject player;
 
     public float chaseRange;
     public float attackRange;
     public float attackCooldown;
-    public float moveSpeed;
-
+    
     float countdown;
 
     // Start is called before the first frame update
     void Start()
     {
         currentState = States.Idle;
+        myStats = GetComponent<EnemyStats>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (hp <= 0)
+        if (myStats.health <= 0)
         {
             currentState = States.Death;
         }
@@ -53,7 +52,7 @@ public class EnemyAI : MonoBehaviour
 
             case States.Chase:
 
-                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, myStats.speed * Time.deltaTime);
 
                 if (Vector2.Distance(player.transform.position, transform.position) > chaseRange)
                 {
@@ -73,7 +72,7 @@ public class EnemyAI : MonoBehaviour
 
                 if (countdown <= 0)
                 {
-                    //player.GetComponent<PlayerStats>().TakeDamage(damage);
+                    player.GetComponent<PlayerStats>().TakeDamage(myStats.damage);
                     countdown = attackCooldown;
                 }
 
