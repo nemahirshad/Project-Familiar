@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ed9150c5f22d04691cc71427d1fdbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
 --- !u!1 &412220562
@@ -1586,7 +1586,6 @@ GameObject:
   m_Component:
   - component: {fileID: 676730651}
   - component: {fileID: 676730650}
-  - component: {fileID: 676730652}
   - component: {fileID: 676730653}
   - component: {fileID: 676730654}
   m_Layer: 0
@@ -1636,7 +1635,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -1656,28 +1655,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676730649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.43, y: -1.24, z: 0}
+  m_LocalPosition: {x: -6.5, y: -1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &676730652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676730649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1718f0179ba2c134cab9ad3593749925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  body: {fileID: 0}
-  horizontal: 0
-  vertical: 0
-  runSpeed: 10
 --- !u!50 &676730653
 Rigidbody2D:
   serializedVersion: 4
@@ -2429,7 +2412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ed9150c5f22d04691cc71427d1fdbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
 --- !u!1 &1119084598
@@ -3344,7 +3327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ed9150c5f22d04691cc71427d1fdbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
 --- !u!1 &1339273692
@@ -3734,7 +3717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ed9150c5f22d04691cc71427d1fdbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
 --- !u!1 &1764082259
