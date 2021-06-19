@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 115208606}
   - component: {fileID: 115208607}
   - component: {fileID: 115208608}
+  - component: {fileID: 115208609}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Enemies
@@ -381,6 +382,21 @@ MonoBehaviour:
   Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
+--- !u!114 &115208609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115208604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254b87df33ab940428f013ede3f30db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Health: 0
+  Damage: 0
 --- !u!1 &123795404
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +667,7 @@ GameObject:
   - component: {fileID: 314263801}
   - component: {fileID: 314263802}
   - component: {fileID: 314263803}
+  - component: {fileID: 314263804}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Enemies
@@ -765,6 +782,21 @@ MonoBehaviour:
   Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
+--- !u!114 &314263804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314263799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254b87df33ab940428f013ede3f30db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Health: 0
+  Damage: 0
 --- !u!1 &412220562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1053,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 0.9075024, b: 0, a: 1}
   m_FlipX: 0
@@ -1588,6 +1620,7 @@ GameObject:
   - component: {fileID: 676730650}
   - component: {fileID: 676730653}
   - component: {fileID: 676730654}
+  - component: {fileID: 676730652}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1661,6 +1694,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &676730652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676730649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e92bd4acfad02342af609e749a8e9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Health: 0
+  Damage: 0
 --- !u!50 &676730653
 Rigidbody2D:
   serializedVersion: 4
@@ -2301,6 +2349,7 @@ GameObject:
   - component: {fileID: 1098199367}
   - component: {fileID: 1098199368}
   - component: {fileID: 1098199369}
+  - component: {fileID: 1098199370}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Enemies
@@ -2415,6 +2464,21 @@ MonoBehaviour:
   Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
+--- !u!114 &1098199370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098199365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254b87df33ab940428f013ede3f30db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Health: 0
+  Damage: 0
 --- !u!1 &1119084598
 GameObject:
   m_ObjectHideFlags: 0
@@ -3216,6 +3280,7 @@ GameObject:
   - component: {fileID: 1319827567}
   - component: {fileID: 1319827568}
   - component: {fileID: 1319827569}
+  - component: {fileID: 1319827570}
   m_Layer: 0
   m_Name: Square (4)
   m_TagString: Enemies
@@ -3330,6 +3395,21 @@ MonoBehaviour:
   Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
+--- !u!114 &1319827570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319827565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254b87df33ab940428f013ede3f30db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Health: 0
+  Damage: 0
 --- !u!1 &1339273692
 GameObject:
   m_ObjectHideFlags: 0
@@ -3606,6 +3686,7 @@ GameObject:
   - component: {fileID: 1695784991}
   - component: {fileID: 1695784993}
   - component: {fileID: 1695784994}
+  - component: {fileID: 1695784995}
   m_Layer: 0
   m_Name: Square
   m_TagString: Enemies
@@ -3720,6 +3801,21 @@ MonoBehaviour:
   Player: {fileID: 676730649}
   Speed: 3
   ReturnToDistance: 4
+--- !u!114 &1695784995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695784990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254b87df33ab940428f013ede3f30db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Health: 0
+  Damage: 0
 --- !u!1 &1764082259
 GameObject:
   m_ObjectHideFlags: 0
