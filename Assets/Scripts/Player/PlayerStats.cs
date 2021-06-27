@@ -14,8 +14,10 @@ public class PlayerStats : MonoBehaviour
     public int staffDamage;
     public int health = 3;
     public int maxHealth = 3;
+    public int armor = 0;
 
     public float speed;
+    public float spellCooldown;
 
     bool immune;
 
@@ -29,7 +31,7 @@ public class PlayerStats : MonoBehaviour
     {
         if(health > 0 && !immune)
         {
-            health -= dmg;
+            health -= armor - dmg;
             hearthSystem.DrawHearts(health, maxHealth);
         }
         else if(health <= 0)
@@ -45,5 +47,20 @@ public class PlayerStats : MonoBehaviour
         yield return new WaitForSeconds(duration);
         immune = false;
         spriteRenderer.color = normal;
+    }
+
+    public void UpgradeMelee()
+    {
+        staffDamage++;
+    }
+
+    public void UpgradeRanged()
+    {
+        spellCooldown = 2.5f;
+    }
+
+    public void UpgradeArmor()
+    {
+        armor++;
     }
 }

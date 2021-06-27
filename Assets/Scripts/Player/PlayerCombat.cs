@@ -18,17 +18,23 @@ public class PlayerCombat : MonoBehaviour
     public float bulletForce = 10f;
     public float attackRange = 0.5f;
 
+    float cooldown;
+
     private void Start()
     {
         myStats = GetComponent<PlayerStats>();
+        cooldown = myStats.spellCooldown;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        cooldown -= Time.deltaTime;
+        
+        if (Input.GetMouseButtonDown(1) && cooldown <= 0)
         {
             Shoot();
+            cooldown = myStats.spellCooldown;
         }
         if (Input.GetMouseButtonDown(0))
         {

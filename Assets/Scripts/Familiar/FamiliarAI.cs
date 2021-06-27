@@ -59,7 +59,7 @@ public class FamiliarAI : MonoBehaviour
 
                 stateCountdown -= Time.deltaTime;
 
-                if (stateCountdown <= 0 && Random.Range(0, 100) > myStats.bond)
+                if (stateCountdown <= 0 && Random.Range(0, 100) < myStats.bond)
                 {
                     currentState = States.Idle;
                     stateCountdown = stateDuration;

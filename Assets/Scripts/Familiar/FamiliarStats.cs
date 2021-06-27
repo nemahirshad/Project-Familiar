@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FamiliarStats : MonoBehaviour
 {
+    public Text text;
+
     public int damage;
     public int health = 1;
     public int maxHealth = 1;
-    public int bond = 75;
+    public int bond = 0;
 
     public float speed;
 
@@ -24,5 +27,20 @@ public class FamiliarStats : MonoBehaviour
         health -= dmg;
 
         hearthSystem.DrawHearts(health, maxHealth);
+    }
+
+    private void Update()
+    {
+        text.text = "Bond: " + bond;
+    }
+
+    public void IncreaseBond()
+    {
+        bond += 10;
+    }
+
+    public void DecreaseBond()
+    {
+        bond -= 10;
     }
 }
