@@ -269,7 +269,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.17227013, g: 0.5471698, b: 0.06917051, a: 1}
   m_FlipX: 0
@@ -758,8 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58082a8571dd79542aa81486d4921e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartPrefab: {fileID: 0}
-  brokenHeartPrefab: {fileID: 0}
+  ani: {fileID: 1334681116}
 --- !u!1 &211198220
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,6 +863,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 347053537}
     m_Modifications:
+    - target: {fileID: 4855396880306527889, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855396880306527890, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: ani
+      value: 
+      objectReference: {fileID: 1075341768}
     - target: {fileID: 4855396880306527890, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
       propertyPath: Player
       value: 
@@ -1101,6 +1108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 347053537}
+  - component: {fileID: 347053538}
   m_Layer: 0
   m_Name: SkeletonKnight
   m_TagString: Untagged
@@ -1125,6 +1133,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &347053538
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347053536}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 57151acce4161024eb654a0414c044d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &410033441 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4855396880306527901, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
@@ -1147,8 +1174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58082a8571dd79542aa81486d4921e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartPrefab: {fileID: 0}
-  brokenHeartPrefab: {fileID: 0}
+  ani: {fileID: 1854213213}
 --- !u!1 &412220562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,7 +2576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676730649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.9, y: -1.9, z: 0}
+  m_LocalPosition: {x: -5.94, y: -1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1829211951}
@@ -3780,6 +3806,11 @@ Transform:
   m_Father: {fileID: 537647523}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1075341768 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3500132716108177036, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+  m_PrefabInstance: {fileID: 232946830}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1098199365
 GameObject:
   m_ObjectHideFlags: 0
@@ -4443,8 +4474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58082a8571dd79542aa81486d4921e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartPrefab: {fileID: 0}
-  brokenHeartPrefab: {fileID: 0}
+  ani: {fileID: 1075341768}
 --- !u!1 &1220157408
 GameObject:
   m_ObjectHideFlags: 0
@@ -5212,6 +5242,11 @@ MonoBehaviour:
   health: 1
   maxHealth: 3
   speed: 1
+--- !u!95 &1334681116 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3500132716108177036, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+  m_PrefabInstance: {fileID: 4855396880373997546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1339273692
 GameObject:
   m_ObjectHideFlags: 0
@@ -6709,6 +6744,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1854213213 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3500132716108177036, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+  m_PrefabInstance: {fileID: 2077592493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918505035
 GameObject:
   m_ObjectHideFlags: 0
@@ -7186,6 +7226,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 347053537}
     m_Modifications:
     - target: {fileID: 4855396880306527890, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: ani
+      value: 
+      objectReference: {fileID: 1854213213}
+    - target: {fileID: 4855396880306527890, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 676730649}
@@ -7244,6 +7288,22 @@ PrefabInstance:
     - target: {fileID: 4855396880306527901, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
       propertyPath: m_Name
       value: SkeletonKnight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398974967519937773, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398974967519937773, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398974967519937773, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398974967519937773, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
@@ -7413,6 +7473,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 347053537}
     m_Modifications:
+    - target: {fileID: 4855396880306527890, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
+      propertyPath: ani
+      value: 
+      objectReference: {fileID: 1334681116}
     - target: {fileID: 4855396880306527890, guid: 6c4a31edee0e596438469ee2e89473f6, type: 3}
       propertyPath: Player
       value: 

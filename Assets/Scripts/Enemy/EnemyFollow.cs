@@ -9,6 +9,7 @@ public class EnemyFollow : MonoBehaviour
     private Vector2 currentPos;
     public float Speed;
     public float ReturnToDistance;
+    public Animator ani;
 
 
     // Start is called before the first frame update
@@ -36,6 +37,7 @@ public class EnemyFollow : MonoBehaviour
             else
             {
                 transform.position = Vector2.MoveTowards(transform.position, currentPos, Speed * Time.deltaTime);
+                ani.enabled = false;
             }
 
         }
