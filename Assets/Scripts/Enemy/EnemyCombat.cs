@@ -5,12 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class EnemyCombat : MonoBehaviour
 {
- 
-   void OnTriggerEnter2D(Collider2D col)
+ public Animator ani;
+
+
+
+    private void Start()
+    {
+        ani.enabled = false;
+    }
+    void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("call melee attack");
+            ani.enabled = true;
         }
     }
 
