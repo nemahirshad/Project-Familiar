@@ -6,13 +6,19 @@ public class SkeletonArcher : MonoBehaviour
 {
     Transform SkeletenArcher;
     public float moveSpeed;
-    public float minDistance;
-    private float range;
     public Transform firePoint;
+    public Transform player;
     public GameObject arrowPrefab;
     public float arrowSpeed = 20f;
     private float arrowshootCooldown;
     public float arrowshootRate = 10f;
+    public float stoppingDistance;
+    public float retreatDistance;
+    public float LineOfSight;
+    
+    
+   
+    
 
 
     // Update is called once per frame
@@ -37,26 +43,54 @@ public class SkeletonArcher : MonoBehaviour
     }
 
 
+
+
     void Update()
     {
+
+        float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+
+
+        if(distanceFromPlayer <= LineOfSight)
+        {
+            if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+            }
+            else if (Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > retreatDistance)
+            {
+                transform.position = this.transform.position;
+
+            }
+            else if (Vector2.Distance(transform.position, player.position) < retreatDistance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, player.position, -moveSpeed * Time.deltaTime);
+            }
+        }
+
+
         //Make Enemy look at player
         transform.LookAt(SkeletenArcher.position);
         transform.Rotate(new Vector3(0, 90, 0), Space.Self);
 
-        //Checks the range 
-        range = Vector2.Distance(transform.position, SkeletenArcher.position);
 
-        if(arrowshootCooldown > 0)
+
+        if (distanceFromPlayer < LineOfSight && arrowshootCooldown < Time.deltaTime)
+        {
+            ShootArrow();
+            arrowshootCooldown = arrowshootRate;
+        }
+        if (arrowshootCooldown > 0)
         {
             arrowshootCooldown -= Time.deltaTime;
         }
 
 
-        if (range < minDistance && arrowshootCooldown < Time.deltaTime)
-        {
-            ShootArrow();
-            arrowshootCooldown = arrowshootRate;
-        }
+    }
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, LineOfSight);
     }
 }
