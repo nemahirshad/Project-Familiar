@@ -17,4 +17,10 @@ public class GameMainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Exiting");
     }
+
+    public void LoadGreybox()
+    {
+        SceneManager.LoadScene("Greybox");
+        Debug.Log("Loading Greybox");
+    }
 }
