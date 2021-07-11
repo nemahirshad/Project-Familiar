@@ -14,13 +14,11 @@ public class FamiliarStats : MonoBehaviour
 
     public float speed;
 
-    public bool familiar;
-
     [SerializeField] HeartSystem hearthSystem;
 
     private void Start()
     {
-        hearthSystem.DrawHearts(health, maxHealth);
+        //hearthSystem.DrawHearts(health, maxHealth);
     }
     public void TakeDamage(int dmg)
     {
@@ -34,13 +32,8 @@ public class FamiliarStats : MonoBehaviour
         text.text = "Bond: " + bond;
     }
 
-    public void IncreaseBond()
+    public void ChangeBond(int stats)
     {
-        bond += 10;
-    }
-
-    public void DecreaseBond()
-    {
-        bond -= 10;
+        bond += stats;
     }
 }

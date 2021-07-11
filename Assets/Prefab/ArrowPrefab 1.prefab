@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4637725239994581364}
   - component: {fileID: 7145462461483680792}
   - component: {fileID: 4067610014844358042}
+  - component: {fileID: 8521248570261978134}
   m_Layer: 0
   m_Name: ArrowPrefab 1
   m_TagString: Untagged
@@ -122,3 +123,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8521248570261978134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492887673371446762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b932e58688d5e4aa77ae5df894f6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 3

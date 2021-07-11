@@ -5,48 +5,135 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public static DialogueManager instance;
 
-    public GameObject dBox;
-    public Text dText;
-    public bool dialogActive;
-    public string[] dialogLines;
-    public int currentLine;
+    public Conversation conversation;
 
-    // Start is called before the first frame update
+    public FamiliarStats familiar;
+
+    public GameObject dialogueBox;
+    public GameObject questionBox;
+
+    public Text speaker;
+    public Text dialogue;
+    public Text Choice1;
+    public Text Choice2;
+
+    private int lineIndex = 0;
+
+    private bool inDialogue;
+
     void Start()
     {
-        
+        //Make this a singleton
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (dialogActive && Input.GetKeyDown(KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.Space) && inDialogue)
         {
-            //dBox.SetActive(false);
-            //dialogActive = false;
-
-            currentLine++;
+            AdvanceConversation();
         }
-        if (currentLine >= dialogLines.Length)
-        {
-            dBox.SetActive(false);
-            dialogActive = false;
-
-            currentLine = 0;
-        }
-        dText.text = dialogLines[currentLine]; 
-    } 
-
-    public void ShowBox(string dialogue)
-    {
-        dialogActive = true;
-        dBox.SetActive(true);
-        dText.text = dialogue;
     }
-    public void ShowDialogue()
+
+    public void StartConversation(Conversation convo)
     {
-        dialogActive = true;
-        dBox.SetActive(true);
+        conversation = convo;
+
+        //Open Dialogue Box
+        dialogueBox.SetActive(true);
+
+        AdvanceConversation();
+        inDialogue = true;
+    }
+
+    public void AdvanceConversation()
+    {
+        //Pause the game
+        Time.timeScale = 0;
+
+        if (lineIndex < conversation.lines.Length)
+        {
+            DisplayLine();
+            inDialogue = true;
+            lineIndex++;
+        }
+        else if(conversation.question != null)
+        {
+            DisplayQuestion();
+            
+            //Reset Dialogue
+            lineIndex = 0;
+            inDialogue = false;
+        }
+        else
+        {
+            //Reset Dialogue
+            lineIndex = 0;
+            inDialogue = false;
+
+            //Unpause the game
+            Time.timeScale = 1;
+
+            //Close dialogue
+            dialogueBox.SetActive(false);
+        }
+    }
+
+    void DisplayLine()
+    {
+        Line line = conversation.lines[lineIndex];
+
+        SetDialogue(line.character, line.text, line.color);
+    }
+
+    void DisplayQuestion()
+    {
+        SetDialogue(conversation.question.character, conversation.question.text, conversation.question.color);
+
+        questionBox.SetActive(true);
+        Choice1.text = conversation.question.choices[0].text;
+        Choice2.text = conversation.question.choices[1].text;
+    }
+
+    void SetDialogue(string active, string text, Color col)
+    {
+        speaker.text = active;
+        dialogue.text = text;
+        dialogue.color = col;
+    }
+
+    public void ChoiceOne()
+    {
+        familiar.ChangeBond(conversation.question.choices[0].familiarBond);
+
+        dialogueBox.SetActive(false);
+        questionBox.SetActive(false);
+
+        if (conversation.question.choices[0].conversation != null)
+        {
+            StartConversation(conversation.question.choices[0].conversation);
+        }
+    }
+
+    public void ChoiceTwo()
+    {
+        familiar.ChangeBond(conversation.question.choices[1].familiarBond);
+
+        dialogueBox.SetActive(false);
+        questionBox.SetActive(false);
+
+        if (conversation.question.choices[1].conversation != null)
+        {
+            StartConversation(conversation.question.choices[1].conversation);
+        }
     }
 }

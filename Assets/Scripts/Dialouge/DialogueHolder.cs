@@ -31,16 +31,7 @@ public class DialogueHolder : MonoBehaviour
         {
             if (Input.GetKeyUp(KeyCode.Space))
             {
-                //dMan.ShowBox(dialogue);
-
-                if (!dMan.dialogActive)
-                {
-                    dMan.dialogLines = dialogueLines;
-                    dMan.currentLine = 0;
-                    dMan.ShowDialogue();
-                }
-
-
+                
             }
         }
     }

@@ -15,8 +15,8 @@ public class SkeletonArcher : MonoBehaviour
     public float stoppingDistance;
     public float retreatDistance;
     public float LineOfSight;
-    
-    
+
+    private EnemyStats myStats;
    
     
 
@@ -30,12 +30,14 @@ public class SkeletonArcher : MonoBehaviour
     private void Start()
     {
         arrowshootCooldown = arrowshootRate;
+        myStats = GetComponent<EnemyStats>();
     }
     
 
    void   ShootArrow()
     {
         GameObject arrow = Instantiate(arrowPrefab, firePoint.position, firePoint.rotation);
+        arrow.GetComponent<SkeletonArrow>().myStats = myStats;
         Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * arrowSpeed, ForceMode2D.Impulse);
         
@@ -47,6 +49,11 @@ public class SkeletonArcher : MonoBehaviour
 
     void Update()
     {
+        if (myStats.health <= 0)
+        {
+            Destroy(gameObject);
+        }
+
 
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
 

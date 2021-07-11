@@ -27,17 +27,22 @@ public class PlayerStats : MonoBehaviour
     {
         hearthSystem.DrawHearts(health, maxHealth);
     }
+
+    private void Update()
+    {
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+    }
+
     public void TakeDamage(int dmg)
     {
         if(health > 0 && !immune)
         {
-            health -= armor - dmg;
+            health -= dmg - armor;
             hearthSystem.DrawHearts(health, maxHealth);
         }
-        else if(health <= 0)
-        {
-            SceneManager.LoadScene("SampleScene");
-        }    
     }
 
     public IEnumerator ActivateAura(int duration)
