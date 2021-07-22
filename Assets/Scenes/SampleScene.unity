@@ -443,9 +443,10 @@ MonoBehaviour:
   tBox: {fileID: 831631510}
   tutorialLines:
   - Welcome to the Game Tutorial!
-  - Use WASD to Move the Witch Around the map...You can use your mouse to rotate
-    the player
-  - Left Click to Melee and Right Click to Shoot
+  - Use WASD to Move the Witch Around the map...You can use your mouse to rotate...
+  - Left Click to Melee Attack and Right Click to Shoot...
+  - You now have what it takes to get through what's ahead of you...
+  - On You Go To Find A Back Way Home...
 --- !u!61 &99835100
 BoxCollider2D:
   m_ObjectHideFlags: 0
