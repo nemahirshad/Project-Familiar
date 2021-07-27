@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Greybox.unity
     guid: 825a9b322882d48409a3f3c23b18ac88
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Screen.unity
+    guid: e37e42fa4bb4e41498c6a3ff542ad1d0
   m_configObjects: {}
