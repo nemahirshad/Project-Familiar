@@ -25,7 +25,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
-        hearthSystem.DrawHearts(health, maxHealth);
+        //hearthSystem.DrawHearts(health, maxHealth);
     }
 
     private void Update()
@@ -41,7 +41,7 @@ public class PlayerStats : MonoBehaviour
         if(health > 0 && !immune)
         {
             health -= dmg - armor;
-            hearthSystem.DrawHearts(health, maxHealth);
+            //hearthSystem.DrawHearts(health, maxHealth);
         }
     }
 
