@@ -23,4 +23,10 @@ public class GameMainMenu : MonoBehaviour
         SceneManager.LoadScene("Greybox");
         Debug.Log("Loading Greybox");
     }
+
+    public void TutorialScene()
+    {
+        SceneManager.LoadScene("Tutorial Screen");
+        Debug.Log("Tutorial Screen");
+    }
 }
