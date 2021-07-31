@@ -13,19 +13,12 @@ MonoBehaviour:
   m_Name: Test
   m_EditorClassIdentifier: 
   lines:
-  - character: Willow
-    color: {r: 1, g: 0, b: 0.75319386, a: 1}
-    text: Hello
-  - character: Familiar
-    color: {r: 1, g: 0.82530123, b: 0, a: 1}
-    text: '*Growl*'
-  - character: Willow
-    color: {r: 1, g: 0, b: 0.75319386, a: 1}
-    text: What's wrong buddy?
-  - character: Familiar
-    color: {r: 1, g: 0.82530123, b: 0, a: 1}
-    text: '*Whines*'
-  - character: Willow
-    color: {r: 1, g: 0, b: 0.75319386, a: 1}
-    text: I think it's hungry
-  question: {fileID: 11400000, guid: 69ad9c523ee06f549ba1cf8d80ddd00b, type: 2}
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Tas
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Test Test
+  question: {fileID: 0}
+  sceneChange: 0
+  scene: 

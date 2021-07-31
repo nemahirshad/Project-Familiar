@@ -29,6 +29,7 @@ public class EnemyAI : MonoBehaviour
     {
         currentState = States.Idle;
         myStats = GetComponent<EnemyStats>();
+        countdown = attackCooldown;
     }
 
     // Update is called once per frame

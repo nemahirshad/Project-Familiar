@@ -19,4 +19,8 @@ public class Conversation : ScriptableObject
     public Line[] lines;
 
     public Question question;
+
+    public bool sceneChange;
+
+    public string scene;
 }

@@ -9,12 +9,16 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Camera cam;
 
-    Vector2 movement;
+    [HideInInspector]
+    public Vector2 movement;
+
+    Animator anim;
     Vector2 mousePos;
 
     private void Start()
     {
         myStats = GetComponent<PlayerStats>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,15 +27,26 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
+        if (movement.x != 0 || movement.y != 0)
+        {
+            anim.SetBool("IsMoving", true);
+        }
+        else
+        {
+            anim.SetBool("IsMoving", false);
+        }
+
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        float mouseDirX = mousePos.x - transform.position.x;
+        float mouseDirY = mousePos.y - transform.position.y;
+
+        anim.SetFloat("X", mouseDirX);
+        anim.SetFloat("Y", mouseDirY);
     }
 
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * myStats.speed * Time.fixedDeltaTime);
-
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
     }
 }

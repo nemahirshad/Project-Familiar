@@ -8,7 +8,7 @@ public class GameMainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene"); //goes to the scene with the specific name
+        SceneManager.LoadScene("0"); //goes to the scene with the specific name
         Debug.Log("Loading to level1");
     }
 
@@ -22,5 +22,11 @@ public class GameMainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Greybox");
         Debug.Log("Loading Greybox");
+    }
+
+    public void TutorialScene()
+    {
+        SceneManager.LoadScene("Tutorial Screen");
+        Debug.Log("Tutorial Screen");
     }
 }

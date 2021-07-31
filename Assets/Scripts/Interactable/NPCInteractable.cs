@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class NPCInteractable : Interactable
 {
+    public Conversation convo;
+
     public override void DoInteraction()
     {
-        //Dialogue
+        DialogueManager.instance.StartConversation(convo);
     }
 }
