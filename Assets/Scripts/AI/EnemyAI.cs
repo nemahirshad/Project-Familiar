@@ -18,6 +18,7 @@ public class EnemyAI : MonoBehaviour
     {
         currentstate = new Idle();
         myStats = GetComponent<EnemyStats>();
+        countdown = attackCooldown;
     }
 
     public virtual void SwitchState(States newState)

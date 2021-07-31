@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class FamiliarStats : MonoBehaviour
 {
+    public Bond bondSO;
+
     public Text text;
 
     public int damage;
@@ -14,11 +16,18 @@ public class FamiliarStats : MonoBehaviour
 
     public float speed;
 
+    public bool levelZero;
+
     [SerializeField] HeartSystem hearthSystem;
 
     private void Start()
     {
-        //hearthSystem.DrawHearts(health, maxHealth);
+        if (!levelZero)
+        {
+            hearthSystem.DrawHearts(health, maxHealth);
+        }
+
+        bond = bondSO.bond;
     }
     public void TakeDamage(int dmg)
     {
@@ -30,6 +39,8 @@ public class FamiliarStats : MonoBehaviour
     private void Update()
     {
         text.text = "Bond: " + bond;
+
+        bondSO.bond = bond;
     }
 
     public void ChangeBond(int stats)

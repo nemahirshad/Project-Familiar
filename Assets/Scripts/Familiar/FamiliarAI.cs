@@ -81,7 +81,7 @@ public class FamiliarAI : MonoBehaviour
                 if (auraCountdown <= 0 && Random.Range(0, 100) > myStats.bond)
                 {
                     StartCoroutine(player.GetComponent<PlayerStats>().ActivateAura(auraDuration));
-                    Debug.Log("Aura");
+                    
                     auraCountdown = auraDuration;
                 }
 

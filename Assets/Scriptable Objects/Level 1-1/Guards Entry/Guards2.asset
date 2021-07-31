@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
+  m_Name: Guards2
+  m_EditorClassIdentifier: 
+  lines:
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: "He\u2019s too cute to be a rat"
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: "I don't believe we\u2019ve met before\u2026"
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: I don't even know where I am
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: Can you help me?
+  - character: Bob
+    color: {r: 0, g: 0, b: 1, a: 1}
+    text: "What do you think we are? A map? Get goi\u2026."
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: WAIT!
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: THE PROPHECY! YOU! IT'S YOU!!!
+  - character: Bob
+    color: {r: 0, g: 0, b: 1, a: 1}
+    text: ...
+  - character: Willow
+    color: {r: 1, g: 1, b: 0, a: 1}
+    text: ...the what?
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: A witch wielding a purple staff and her familiar!
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: You're here to save us
+  - character: Bob
+    color: {r: 0, g: 0, b: 1, a: 1}
+    text: Jim...
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: We've been waiting for you!
+  - character: Bob
+    color: {r: 0, g: 0, b: 1, a: 1}
+    text: JIM
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: WHAT
+  - character: Bob
+    color: {r: 0, g: 0, b: 1, a: 1}
+    text: She's just a little stray
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: No, we'll finally be free
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: Wait what's going on?
+  - character: Bob
+    color: {r: 0, g: 0, b: 1, a: 1}
+    text: The undead have risen and started attacking us
+  - character: Bob
+    color: {r: 0, g: 0, b: 1, a: 1}
+    text: Whether you're the prophecy witch or not I think it's safer to stay here
+      for now
+  - character: Willow
+    color: {r: 1, g: 1, b: 0, a: 1}
+    text: Thank you
+  question: {fileID: 0}
+  sceneChange: 0
+  scene: 

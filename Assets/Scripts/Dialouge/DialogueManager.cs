@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
@@ -23,7 +24,7 @@ public class DialogueManager : MonoBehaviour
 
     private bool inDialogue;
 
-    void Start()
+    private void Awake()
     {
         //Make this a singleton
         if (instance == null)
@@ -73,6 +74,10 @@ public class DialogueManager : MonoBehaviour
             //Reset Dialogue
             lineIndex = 0;
             inDialogue = false;
+        }
+        else if (conversation.sceneChange)
+        {
+            SceneManager.LoadScene(conversation.scene);
         }
         else
         {

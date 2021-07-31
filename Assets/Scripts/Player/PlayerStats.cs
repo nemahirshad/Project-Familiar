@@ -32,7 +32,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (health <= 0)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("1-1");
         }
     }
 
