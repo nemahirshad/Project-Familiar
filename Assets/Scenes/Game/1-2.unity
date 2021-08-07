@@ -191,8 +191,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -360,8 +372,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -454,8 +478,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: wayPoint.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: wayPoint.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -706,8 +750,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -940,8 +996,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -1198,8 +1266,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -1981,8 +2061,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -2075,8 +2167,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -2265,8 +2369,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -2359,8 +2475,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -29239,8 +29367,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -29333,8 +29473,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -29427,8 +29579,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -56446,8 +56610,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -56540,8 +56716,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -56852,8 +57040,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown
@@ -56946,8 +57146,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackRange
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: maxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
+      propertyPath: rangeToPatrol
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 479407078386767858, guid: ef84560c5b7f374449b90e1577714c75, type: 3}
       propertyPath: attackCooldown

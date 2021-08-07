@@ -13,12 +13,19 @@ public class EnemyAI : MonoBehaviour
 
     public float countdown;
     States currentstate;
+
+    public float rangeToPatrol;
+    public float maxDistance;
+
+    public Vector2 wayPoint;
+
     
-    private void Start()
+   private void Start()
     {
-        currentstate = new Idle();
+        currentstate = new Patrol();
         myStats = GetComponent<EnemyStats>();
         countdown = attackCooldown;
+        SetNewDestination();
     }
 
     public virtual void SwitchState(States newState)
@@ -27,8 +34,13 @@ public class EnemyAI : MonoBehaviour
     }
 
   
-    void Update()
+    public void Update()
     {
         currentstate.UpdateState(this);
+    }
+
+    public void SetNewDestination()
+    {
+        wayPoint = new Vector2(Random.Range(-maxDistance, maxDistance), Random.Range(-maxDistance, maxDistance));
     }
 }
