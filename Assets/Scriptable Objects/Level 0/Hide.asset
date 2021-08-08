@@ -31,6 +31,10 @@ MonoBehaviour:
   - character: Willow
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
     text: We should probably head somewhere safe first
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Press E to interact with NPCs, approach the creature and interact with
+      it!
   question: {fileID: 0}
   sceneChange: 0
-  scene: 1-1 First Time
+  scene: 

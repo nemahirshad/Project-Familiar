@@ -75,8 +75,11 @@ MonoBehaviour:
     text: Whether you're the prophecy witch or not I think it's safer to stay here
       for now
   - character: Willow
-    color: {r: 1, g: 1, b: 0, a: 1}
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
     text: Thank you
+  - character: Jim
+    color: {r: 0, g: 1, b: 1, a: 1}
+    text: I recommend you find the wizard he might be able to help you
   question: {fileID: 0}
   sceneChange: 0
   scene: 

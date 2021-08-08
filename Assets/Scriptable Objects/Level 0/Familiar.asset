@@ -10,31 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
-  m_Name: Pet
+  m_Name: Familiar
   m_EditorClassIdentifier: 
   lines:
   - character: Willow
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
-    text: "Aww well aren\u2019t you cute, its ok I won\u2019t hurt you"
-  - character: ' '
-    color: {r: 1, g: 1, b: 1, a: 1}
-    text: Willow approaches and pets the creature
-  - character: ' '
-    color: {r: 1, g: 1, b: 1, a: 1}
-    text: Willow approaches and pets the creature
+    text: You're not so scary!
   - character: Willow
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
-    text: Aww you're not so bad
+    text: I need to name you something...
   - character: Willow
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
-    text: Aww you're not so bad
+    text: Rocky!
+  - character: Creature
+    color: {r: 1, g: 1, b: 0, a: 1}
+    text: '*Growl*'
   - character: Willow
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
-    text: We should probably head somewhere safe first
+    text: No good?
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: How about Marbles?
   - character: 
     color: {r: 1, g: 1, b: 1, a: 1}
-    text: Press E to interact with NPCs, approach the creature and interact with
-      it!
+    text: The creature approaches you and snuggles your legs
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: Nice to have you Marbles, we should go to the right I think I see a village!
   question: {fileID: 0}
   sceneChange: 0
   scene: 

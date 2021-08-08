@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: Wizard
   m_EditorClassIdentifier: 
   lines:
+  - character: Krom
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: Well lets see here, a little witch who wants to help
   - character: 
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
-    text: As much as I'd love to help
-  - character: 
-    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
-    text: I won't be important in the playtest
-  question: {fileID: 0}
+    text: That's a beautiful staff would be a waste on someone like you
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: Hey!
+  question: {fileID: 11400000, guid: 1493905ead6e57342a4210f40fccbbe1, type: 2}
   sceneChange: 0
   scene: 

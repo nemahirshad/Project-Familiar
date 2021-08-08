@@ -3,38 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FamiliarStats : MonoBehaviour
+public class FamiliarStats : Stats
 {
     public Bond bondSO;
 
     public Text text;
 
-    public int damage;
-    public int health = 1;
-    public int maxHealth = 1;
     public int bond = 0;
+    public int auraDuration;
 
-    public float speed;
+    public float healSpeed;
+    public float healCountdown;
+    public float auraCountdown;
 
     public bool levelZero;
 
-    [SerializeField] HeartSystem hearthSystem;
-
-    private void Start()
+    public override void Start()
     {
         if (!levelZero)
         {
-            hearthSystem.DrawHearts(health, maxHealth);
+            heartSystem.DrawHearts(health, maxHealth);
         }
 
         bond = bondSO.bond;
     }
-    public void TakeDamage(int dmg)
-    {
-        health -= dmg;
-
-        hearthSystem.DrawHearts(health, maxHealth);
-    }
+    
 
     private void Update()
     {

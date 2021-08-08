@@ -9,13 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
-  m_Name: TutorialExplanation
+  m_Script: {fileID: 11500000, guid: bef164017ac5eae408bed32425b3c947, type: 3}
+  m_Name: Save
   m_EditorClassIdentifier: 
-  lines:
-  - character: 
-    color: {r: 1, g: 1, b: 1, a: 1}
-    text: You can use the WASD to move
-  question: {fileID: 0}
-  sceneChange: 0
-  scene: 
+  sceneName: 1-2

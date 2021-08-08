@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 380007980}
         m_TargetAssemblyTypeName: GameMainMenu, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: NewGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -385,6 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88ef1f8b6472674cb1f7a83122deeee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  save: {fileID: 11400000, guid: ddcf64c1563419041ba25cff97e3f6a3, type: 2}
 --- !u!1 &620254797
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,7 +597,7 @@ GameObject:
   - component: {fileID: 1321545860}
   - component: {fileID: 1321545859}
   m_Layer: 5
-  m_Name: Tutorial
+  m_Name: Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +668,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 380007980}
         m_TargetAssemblyTypeName: GameMainMenu, Assembly-CSharp
-        m_MethodName: TutorialScene
+        m_MethodName: ContinueScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -787,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1454717689

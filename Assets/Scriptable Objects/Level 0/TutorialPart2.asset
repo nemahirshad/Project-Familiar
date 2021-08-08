@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
-  m_Name: TutorialStart
+  m_Name: TutorialPart2
   m_EditorClassIdentifier: 
-  lines:
-  - character: 
-    color: {r: 1, g: 1, b: 1, a: 1}
-    text: Would you like to learn how to play?
-  question: {fileID: 11400000, guid: 92b18ea4550bd5a4f9272646a2847ccb, type: 2}
+  lines: []
+  question: {fileID: 0}
   sceneChange: 0
   scene: 
