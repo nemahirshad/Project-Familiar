@@ -250,7 +250,7 @@ MonoBehaviour:
   player: {fileID: 0}
   chaseRange: 5
   attackRange: 2
-  myStats: {fileID: 0}
+  myStats: {fileID: 479407078386767861}
   attackCooldown: 0.5
   countdown: 0
   rangeToPatrol: 9
@@ -272,7 +272,22 @@ MonoBehaviour:
   health: 2
   maxHealth: 2
   speed: 3
+  attackRange: 0
+  attackCooldown: 0
+  attackCountdown: 0
   heartSystem: {fileID: 7751320759778205295}
+  spawnPoints: []
+  zombies: []
+  playerLast: {x: 0, y: 0, z: 0}
+  fireballPrefab: {fileID: 0}
+  zombiePrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  fireballSpeed: 0
+  leapRange: 0
+  fireballCooldown: 0
+  fireballCountdown: 0
+  fireballCount: 0
+  lept: 0
 --- !u!1001 &23458841
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -18,11 +18,11 @@ public class Stats : MonoBehaviour
     // Start is called before the first frame update
     public virtual void Start()
     {
-        
+        heartSystem.DrawHearts(health, maxHealth);
     }
 
     // Update is called once per frame
-    void Update()
+    public virtual void Update()
     {
         
     }

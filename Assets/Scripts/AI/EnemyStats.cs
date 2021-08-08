@@ -23,4 +23,9 @@ public class EnemyStats : Stats
     public int fireballCount;
 
     public bool lept;
+
+    public override void Start()
+    {
+        base.Start();
+    }
 }

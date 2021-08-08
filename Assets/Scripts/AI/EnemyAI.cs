@@ -37,6 +37,11 @@ public class EnemyAI : MonoBehaviour
     public void Update()
     {
         currentstate.UpdateState(this);
+
+        if (myStats.health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void SetNewDestination()

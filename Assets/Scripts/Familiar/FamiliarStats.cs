@@ -29,7 +29,7 @@ public class FamiliarStats : Stats
     }
     
 
-    private void Update()
+    public override void Update()
     {
         text.text = "Bond: " + bond;
 
