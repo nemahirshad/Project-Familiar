@@ -20,7 +20,7 @@ public class DialogueManager : MonoBehaviour
     public Text Choice1;
     public Text Choice2;
 
-    private int lineIndex = 0;
+    public int lineIndex = 0;
 
     private bool inDialogue;
 
