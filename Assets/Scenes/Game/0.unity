@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 428271528}
   m_Layer: 0
   m_Name: Familiar
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1622,7 +1622,7 @@ MonoBehaviour:
   armor: 0
   speed: 5
   spellCooldown: 1
-  heartSystem: {fileID: 0}
+  heartSystem: {fileID: 18253841}
 --- !u!95 &676730657
 Animator:
   serializedVersion: 3
