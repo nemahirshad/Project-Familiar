@@ -4,93 +4,48 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    enum States
-    {
-        Idle,
-        Chase,
-        Attack,
-        Death
-    }
-
-    States currentState;
-
-    EnemyStats myStats;
-
     public GameObject player;
 
     public float chaseRange;
     public float attackRange;
+    public EnemyStats myStats;
     public float attackCooldown;
-    
-    float countdown;
 
-    // Start is called before the first frame update
-    void Start()
+    public float countdown;
+    States currentstate;
+
+    public float rangeToPatrol;
+    public float maxDistance;
+
+    public Vector2 wayPoint;
+
+    
+   private void Start()
     {
-        currentState = States.Idle;
+        currentstate = new Patrol();
         myStats = GetComponent<EnemyStats>();
+        countdown = attackCooldown;
+        SetNewDestination();
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void SwitchState(States newState)
     {
+        currentstate = newState;
+    }
+
+  
+    public void Update()
+    {
+        currentstate.UpdateState(this);
+
         if (myStats.health <= 0)
         {
-            currentState = States.Death;
+            Destroy(gameObject);
         }
+    }
 
-        switch (currentState)
-        {
-            case States.Idle:
-
-                if (Vector2.Distance(player.transform.position, transform.position) < chaseRange)
-                {
-                    currentState = States.Chase;
-                }
-
-                break;
-
-            case States.Chase:
-
-                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, myStats.speed * Time.deltaTime);
-
-                if (Vector2.Distance(player.transform.position, transform.position) > chaseRange)
-                {
-                    currentState = States.Idle;
-                }
-
-                if (Vector2.Distance(player.transform.position, transform.position) < attackRange)
-                {
-                    currentState = States.Attack;
-                }
-
-                break;
-
-            case States.Attack:
-
-                countdown -= Time.deltaTime;
-
-                if (countdown <= 0)
-                {
-                    player.GetComponent<PlayerStats>().TakeDamage(myStats.damage);
-                    countdown = attackCooldown;
-                }
-
-                if (Vector2.Distance(player.transform.position, transform.position) > attackRange)
-                {
-                    currentState = States.Chase;
-                }
-
-                break;
-
-            case States.Death:
-
-                Destroy(gameObject);
-
-                break;
-
-            default:
-                break;
-        }
+    public void SetNewDestination()
+    {
+        wayPoint = new Vector2(Random.Range(-maxDistance, maxDistance), Random.Range(-maxDistance, maxDistance));
     }
 }

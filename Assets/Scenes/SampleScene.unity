@@ -543,9 +543,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
+  chaseRange: 4
   attackRange: 2
-  attackCooldown: 2
+  myStats: {fileID: 115208610}
+  attackCooldown: 1
+  countdown: 0
 --- !u!114 &115208610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,9 +756,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
-  attackRange: 2
-  attackCooldown: 2
+  chaseRange: 2
+  attackRange: 1
+  myStats: {fileID: 202277241}
+  attackCooldown: 0
+  countdown: 0
 --- !u!114 &202277241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1136,9 +1140,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
+  chaseRange: 4
   attackRange: 2
-  attackCooldown: 2
+  myStats: {fileID: 314263805}
+  attackCooldown: 1
+  countdown: 0
 --- !u!114 &314263805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1263,9 +1269,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
-  attackRange: 2
-  attackCooldown: 2
+  chaseRange: 2
+  attackRange: 1
+  myStats: {fileID: 410033444}
+  attackCooldown: 0
+  countdown: 0
 --- !u!114 &410033444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4207,9 +4215,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
+  chaseRange: 4
   attackRange: 2
-  attackCooldown: 2
+  myStats: {fileID: 1098199371}
+  attackCooldown: 1
+  countdown: 0
 --- !u!114 &1098199371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4671,9 +4681,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
-  attackRange: 2
-  attackCooldown: 2
+  chaseRange: 2
+  attackRange: 1
+  myStats: {fileID: 1189635595}
+  attackCooldown: 0
+  countdown: 0
 --- !u!114 &1189635595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5365,9 +5377,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
+  chaseRange: 4
   attackRange: 2
-  attackCooldown: 2
+  myStats: {fileID: 1319827571}
+  attackCooldown: 1
+  countdown: 0
 --- !u!114 &1319827571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6187,9 +6201,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 676730649}
-  chaseRange: 10
+  chaseRange: 4
   attackRange: 2
-  attackCooldown: 2
+  myStats: {fileID: 1695784996}
+  attackCooldown: 1
+  countdown: 0
 --- !u!114 &1695784996
 MonoBehaviour:
   m_ObjectHideFlags: 0

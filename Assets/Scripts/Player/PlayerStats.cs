@@ -21,18 +21,18 @@ public class PlayerStats : MonoBehaviour
 
     bool immune;
 
-    [SerializeField] HeartSystem hearthSystem;
+    [SerializeField] HeartSystem heartSystem;
 
     private void Start()
     {
-        //hearthSystem.DrawHearts(health, maxHealth);
+        heartSystem.DrawHearts(health, maxHealth);
     }
 
     private void Update()
     {
         if (health <= 0)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("1-1");
         }
     }
 
@@ -41,7 +41,7 @@ public class PlayerStats : MonoBehaviour
         if(health > 0 && !immune)
         {
             health -= dmg - armor;
-            //hearthSystem.DrawHearts(health, maxHealth);
+            heartSystem.DrawHearts(health, maxHealth);
         }
     }
 

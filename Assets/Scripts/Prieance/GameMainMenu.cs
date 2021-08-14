@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameMainMenu : MonoBehaviour
 {
+    public SaveSlot save;
 
-    public void StartGame()
+    public void NewGame()
     {
-        SceneManager.LoadScene("SampleScene"); //goes to the scene with the specific name
+        SceneManager.LoadScene("0"); //goes to the scene with the specific name
         Debug.Log("Loading to level1");
     }
 
@@ -24,9 +25,9 @@ public class GameMainMenu : MonoBehaviour
         Debug.Log("Loading Greybox");
     }
 
-    public void TutorialScene()
+    public void ContinueScene()
     {
-        SceneManager.LoadScene("Tutorial Screen");
-        Debug.Log("Tutorial Screen");
+        SceneManager.LoadScene(save.sceneName);
+        Debug.Log("Loading Game Screen");
     }
 }

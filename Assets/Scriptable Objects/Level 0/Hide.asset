@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
+  m_Name: Hide
+  m_EditorClassIdentifier: 
+  lines:
+  - character: ' '
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Both Willow and the creature panic scream and hide on either side of tree
+  - character: ' '
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: The creature slowly approaches Willow hesitantly
+  - character: ' '
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Willow is afraid and doesn't move as the creature approaches
+  - character: ' '
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: The creature sniffs Willow and rubs its head on her
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: Aww you're not so bad
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: We should probably head somewhere safe first
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Press E to interact with NPCs, approach the creature and interact with
+      it!
+  question: {fileID: 0}
+  sceneChange: 0
+  scene: 

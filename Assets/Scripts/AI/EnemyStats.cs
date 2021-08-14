@@ -3,21 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyStats : MonoBehaviour
+public class EnemyStats : Stats
 {
-    public int damage;
-    public int health = 3;
-    public int maxHealth = 3;
+    public List<Transform> spawnPoints;
+    public List<GameObject> zombies = new List<GameObject>();
 
-    public float speed;
+    public Vector3 playerLast;
 
-    private void Start()
+    public GameObject fireballPrefab;
+    public GameObject zombiePrefab;
+
+    public Transform firePoint;
+
+    public float fireballSpeed;
+    public float leapRange;
+    public float fireballCooldown;
+    public float fireballCountdown;
+
+    public int fireballCount;
+
+    public bool lept;
+
+    public override void Start()
     {
-
-    }
-
-    public void TakeDamage(int dmg)
-    {
-        health -= dmg;
+        base.Start();
     }
 }

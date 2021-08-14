@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7485a34f302ae6c4b8e47b91b4dd1112, type: 3}
+  m_Name: Q-Marbles
+  m_EditorClassIdentifier: 
+  text: Marbles prepares to attack the wizard, what do you do?
+  character: 
+  color: {r: 1, g: 1, b: 1, a: 1}
+  choices:
+  - conversation: {fileID: 11400000, guid: 0ca71ccaa01663044a5230aaa51c1780, type: 2}
+    text: Calm marbles with belly rubs
+    familiarBond: 5
+  - conversation: {fileID: 11400000, guid: e11104db7a3ef51439c3ae9287c8ab2f, type: 2}
+    text: Let him bite him
+    familiarBond: -5
