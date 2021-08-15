@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bench
   m_EditorClassIdentifier: 
   lines:
-  - character: Nelly
+  - character: Rose
     color: {r: 0.75165796, g: 0, b: 1, a: 1}
     text: I wish I could meet Collins...
   question: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tom
   m_EditorClassIdentifier: 
   lines:
-  - character: Tom
+  - character: Soldier Sophie
     color: {r: 0, g: 0.43634176, b: 1, a: 1}
     text: Let me guess, you met Bob and Jim
   - character: Willow

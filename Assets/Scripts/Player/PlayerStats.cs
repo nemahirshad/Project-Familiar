@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
+    public UpgradeObject upgradeObject;
+
     public Color normal;
     public Color aura;
 
@@ -19,13 +21,33 @@ public class PlayerStats : MonoBehaviour
     public float speed;
     public float spellCooldown;
 
+    public bool levelZero;
+
     bool immune;
 
     [SerializeField] HeartSystem heartSystem;
 
     private void Start()
     {
-        heartSystem.DrawHearts(health, maxHealth);
+        if (!levelZero)
+        {
+            heartSystem.DrawHearts(health, maxHealth);
+        }
+
+        if (upgradeObject.melee)
+        {
+            UpgradeMelee();
+        }
+
+        if (upgradeObject.ranged)
+        {
+            UpgradeRanged();
+        }
+
+        if (upgradeObject.armor)
+        {
+            UpgradeArmor();
+        }
     }
 
     private void Update()

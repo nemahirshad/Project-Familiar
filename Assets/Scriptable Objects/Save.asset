@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef164017ac5eae408bed32425b3c947, type: 3}
   m_Name: Save
   m_EditorClassIdentifier: 
-  sceneName: 1-2
+  sceneName: 
+  position: {x: 0, y: 0, z: 0}
+  bond: 0

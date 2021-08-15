@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+    public UpgradeObject upgradeObject;
+
     public PlayerStats myStats;
 
     public Transform firePoint;

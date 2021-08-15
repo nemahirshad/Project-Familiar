@@ -38,5 +38,5 @@ MonoBehaviour:
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
     text: Nice to have you Marbles, we should go to the right I think I see a village!
   question: {fileID: 0}
-  sceneChange: 0
-  scene: 
+  sceneChange: 1
+  scene: First Time 1-1

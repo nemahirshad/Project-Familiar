@@ -6,30 +6,44 @@ public class UpgradeInteractable : Interactable
 {
     public enum UpgradeType
     {
-        Melee,
-        Ranged,
-        Armor
+        MELEE,
+        RANGED,
+        ARMOR
     }
 
     public UpgradeType type;
 
+    public GameObject npc;
+
+    public QuestObject quest;
+    public UpgradeObject upgrade;
+
     public PlayerStats stats;
+    public PlayerCombat combat;
+
+    public int amountNeeded;
 
     public override void DoInteraction()
     {
-        switch (type)
+        if (quest.amount >= amountNeeded)
         {
-            case UpgradeType.Melee:
-                stats.UpgradeMelee();
-                break;
+            switch (type)
+            {
+                case UpgradeType.MELEE:
+                    stats.UpgradeMelee();
+                    upgrade.melee = true;
+                    break;
 
-            case UpgradeType.Ranged:
-                stats.UpgradeRanged();
-                break;
+                case UpgradeType.RANGED:
+                    stats.UpgradeRanged();
+                    upgrade.ranged = true;
+                    break;
 
-            case UpgradeType.Armor:
-                stats.UpgradeArmor();
-                break;
+                case UpgradeType.ARMOR:
+                    stats.UpgradeArmor();
+                    upgrade.armor = true;
+                    break;
+            }
         }
     }
 }

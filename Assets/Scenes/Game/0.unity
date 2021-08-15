@@ -1345,6 +1345,7 @@ MonoBehaviour:
   dialogue: {fileID: 549235139}
   Choice1: {fileID: 1756255744}
   Choice2: {fileID: 1587118711}
+  lineIndex: 0
 --- !u!1 &624389933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,6 +1591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d56aca7caed62e41baa04ef3a0ef7ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeObject: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
   myStats: {fileID: 676730656}
   firePoint: {fileID: 930163826}
   attackPoint: {fileID: 2060616750}
@@ -1612,6 +1614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df0e4a14e75b3b4fa278d1d6fea9492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeObject: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
   normal: {r: 0, g: 0, b: 0, a: 1}
   aura: {r: 0.7924528, g: 0.7804913, b: 0.7804913, a: 1}
   spriteRenderer: {fileID: 676730650}
@@ -1622,6 +1625,7 @@ MonoBehaviour:
   armor: 0
   speed: 5
   spellCooldown: 1
+  levelZero: 1
   heartSystem: {fileID: 18253841}
 --- !u!95 &676730657
 Animator:
@@ -2001,7 +2005,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

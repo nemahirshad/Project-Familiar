@@ -6,5 +6,8 @@ using UnityEngine;
 public class SaveSlot : ScriptableObject
 {
     public string sceneName;
-    
+
+    public Vector3 position;
+
+    public int bond;
 }
