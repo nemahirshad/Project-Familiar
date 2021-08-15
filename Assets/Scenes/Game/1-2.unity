@@ -1132,7 +1132,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 837.65076, y: 493.89645}
+  m_AnchoredPosition: {x: 837.65076, y: 493.89642}
   m_SizeDelta: {x: -1699.97, y: -1014.3929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &454147106
@@ -1834,7 +1834,7 @@ MonoBehaviour:
   myStats: {fileID: 676730656}
   firePoint: {fileID: 930163826}
   attackPoint: {fileID: 2060616750}
-  bulletPrefab: {fileID: 858070585664029502, guid: 343662d79fe825844b7de27114db5df5, type: 3}
+  bulletPrefab: {fileID: 496879009512770615, guid: fa820a13a359a4b469fdf8f8ebc28e9b, type: 3}
   animator: {fileID: 676730657}
   enemyLayers:
     serializedVersion: 2
