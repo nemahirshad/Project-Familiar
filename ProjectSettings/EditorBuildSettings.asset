@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/1-2.unity
     guid: e114c95e32dd17f4faae56dc80757d52
   - enabled: 1
+    path: Assets/Scenes/Game/2-1.unity
+    guid: d21a872e9c80f33419ab817852addedd
+  - enabled: 1
+    path: Assets/Scenes/Game/3-1.unity
+    guid: 215e267865ea9ce468b9e007dfa964a9
+  - enabled: 1
+    path: Assets/Scenes/Game/3-2.unity
+    guid: 04fcc5854a36cac4190b03930a652cd7
+  - enabled: 0
     path: Assets/Scenes/Game/TBC.unity
     guid: 85cae3326c41f954e8868c064e2f7171
   m_configObjects: {}

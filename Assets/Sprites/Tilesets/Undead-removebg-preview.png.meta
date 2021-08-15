@@ -1,0 +1,1704 @@
+fileFormatVersion: 2
+guid: 5c77ae94cf5334649bcdb408a0df6531
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -463849515146594632
+    second: Undead-removebg-preview_0
+  - first:
+      213: -3403908703764998027
+    second: Undead-removebg-preview_1
+  - first:
+      213: -7007825002019490735
+    second: Undead-removebg-preview_2
+  - first:
+      213: -125750123212215365
+    second: Undead-removebg-preview_3
+  - first:
+      213: -3938410644227631644
+    second: Undead-removebg-preview_4
+  - first:
+      213: 788805540211001712
+    second: Undead-removebg-preview_5
+  - first:
+      213: 5361133941992168905
+    second: Undead-removebg-preview_6
+  - first:
+      213: -1800042805443701661
+    second: Undead-removebg-preview_7
+  - first:
+      213: -398535607938264898
+    second: Undead-removebg-preview_8
+  - first:
+      213: -8091560000788719485
+    second: Undead-removebg-preview_9
+  - first:
+      213: -8619069412807909951
+    second: Undead-removebg-preview_10
+  - first:
+      213: -1730648535015152552
+    second: Undead-removebg-preview_11
+  - first:
+      213: -3077317128622951278
+    second: Undead-removebg-preview_12
+  - first:
+      213: 7122747976476170316
+    second: Undead-removebg-preview_13
+  - first:
+      213: 427103061944638687
+    second: Undead-removebg-preview_14
+  - first:
+      213: 7282609405733911507
+    second: Undead-removebg-preview_15
+  - first:
+      213: 3925842946795032615
+    second: Undead-removebg-preview_16
+  - first:
+      213: 2090285799424702309
+    second: Undead-removebg-preview_17
+  - first:
+      213: 8878873811555482760
+    second: Undead-removebg-preview_18
+  - first:
+      213: 4718351938186694350
+    second: Undead-removebg-preview_19
+  - first:
+      213: 7087970363160073090
+    second: Undead-removebg-preview_20
+  - first:
+      213: 8010781358458410036
+    second: Undead-removebg-preview_21
+  - first:
+      213: -3387049336002394077
+    second: Undead-removebg-preview_22
+  - first:
+      213: 7859741113244199228
+    second: Undead-removebg-preview_23
+  - first:
+      213: -5102406231316049968
+    second: Undead-removebg-preview_24
+  - first:
+      213: -7526667802041421959
+    second: Undead-removebg-preview_25
+  - first:
+      213: 4052642113753007763
+    second: Undead-removebg-preview_26
+  - first:
+      213: 8214167236298512460
+    second: Undead-removebg-preview_27
+  - first:
+      213: 2075552166155926881
+    second: Undead-removebg-preview_28
+  - first:
+      213: -3062924256142677898
+    second: Undead-removebg-preview_29
+  - first:
+      213: 3571644696262567959
+    second: Undead-removebg-preview_30
+  - first:
+      213: -6551322648424204532
+    second: Undead-removebg-preview_31
+  - first:
+      213: -1139548370981449724
+    second: Undead-removebg-preview_32
+  - first:
+      213: -8903027550945907706
+    second: Undead-removebg-preview_33
+  - first:
+      213: 1174270248868882119
+    second: Undead-removebg-preview_34
+  - first:
+      213: 5757350367341758818
+    second: Undead-removebg-preview_35
+  - first:
+      213: 4514663962705324266
+    second: Undead-removebg-preview_36
+  - first:
+      213: 8936709458395369556
+    second: Undead-removebg-preview_37
+  - first:
+      213: -3720592392522804955
+    second: Undead-removebg-preview_38
+  - first:
+      213: 6604433068804007191
+    second: Undead-removebg-preview_39
+  - first:
+      213: -8640994209400057964
+    second: Undead-removebg-preview_40
+  - first:
+      213: 8158037653644401694
+    second: Undead-removebg-preview_41
+  - first:
+      213: 9165801736337408573
+    second: Undead-removebg-preview_42
+  - first:
+      213: -3010247667243145789
+    second: Undead-removebg-preview_43
+  - first:
+      213: -4955272379915466283
+    second: Undead-removebg-preview_44
+  - first:
+      213: 4049064919250586066
+    second: Undead-removebg-preview_45
+  - first:
+      213: 7959158479726617280
+    second: Undead-removebg-preview_46
+  - first:
+      213: 451312919371594621
+    second: Undead-removebg-preview_47
+  - first:
+      213: -8325754588596116181
+    second: Undead-removebg-preview_48
+  - first:
+      213: 5026828984884579024
+    second: Undead-removebg-preview_49
+  - first:
+      213: -8625680622032523040
+    second: Undead-removebg-preview_50
+  - first:
+      213: -3974371275533476933
+    second: Undead-removebg-preview_51
+  - first:
+      213: 2438788729744025657
+    second: Undead-removebg-preview_52
+  - first:
+      213: 5323349647744745623
+    second: Undead-removebg-preview_53
+  - first:
+      213: 2873936857646297054
+    second: Undead-removebg-preview_54
+  - first:
+      213: 6100246430382235473
+    second: Undead-removebg-preview_55
+  - first:
+      213: 6529820195166506326
+    second: Undead-removebg-preview_56
+  - first:
+      213: 6318348968038587397
+    second: Undead-removebg-preview_57
+  - first:
+      213: -8743924781904654271
+    second: Undead-removebg-preview_58
+  - first:
+      213: -2717468517051100902
+    second: Undead-removebg-preview_59
+  - first:
+      213: -3939383608703858441
+    second: Undead-removebg-preview_60
+  - first:
+      213: -7503889690271445092
+    second: Undead-removebg-preview_61
+  - first:
+      213: -6911625649584890248
+    second: Undead-removebg-preview_62
+  - first:
+      213: -3417566084604127754
+    second: Undead-removebg-preview_63
+  - first:
+      213: 5106112063743133961
+    second: Undead-removebg-preview_64
+  - first:
+      213: 440498639030274976
+    second: Undead-removebg-preview_65
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Undead-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 311
+        width: 126
+        height: 170
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b63374d2531099f0800000000000000
+      internalID: -463849515146594632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 436
+        width: 19
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5781a309113e2c0d0800000000000000
+      internalID: -3403908703764998027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 439
+        width: 28
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154f68a2a443fbe90800000000000000
+      internalID: -7007825002019490735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 469
+        width: 18
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb697fddee314ef0800000000000000
+      internalID: -125750123212215365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 343
+        width: 63
+        height: 157
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5d13bb264f759c0800000000000000
+      internalID: -3938410644227631644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 281
+        width: 185
+        height: 219
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0790325a57662fa00800000000000000
+      internalID: 788805540211001712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 437
+        width: 18
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd9bbd6ae2966a40800000000000000
+      internalID: 5361133941992168905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 406
+        width: 29
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364d7010b96f407e0800000000000000
+      internalID: -1800042805443701661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 406
+        width: 26
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0de72e9fd187af0800000000000000
+      internalID: -398535607938264898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 406
+        width: 20
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3889a3adc0105bf80800000000000000
+      internalID: -8091560000788719485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 406
+        width: 20
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd562be80ae26880800000000000000
+      internalID: -8619069412807909951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 375
+        width: 21
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8542f57a3508bf7e0800000000000000
+      internalID: -1730648535015152552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 281
+        width: 28
+        height: 105
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2943437306c2b45d0800000000000000
+      internalID: -3077317128622951278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 251
+        width: 92
+        height: 135
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c489e72fb8519d260800000000000000
+      internalID: 7122747976476170316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 343
+        width: 26
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc11b1d8ff5de500800000000000000
+      internalID: 427103061944638687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 280
+        width: 32
+        height: 83
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db30ba6ba6011560800000000000000
+      internalID: 7282609405733911507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 311
+        width: 19
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720d0bf2c556b7630800000000000000
+      internalID: 3925842946795032615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 318
+        width: 11
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567b0c91cdf220d10800000000000000
+      internalID: 2090285799424702309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 281
+        width: 21
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c784770b8183b70800000000000000
+      internalID: 8878873811555482760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 125
+        width: 93
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec4e0c614fa7140800000000000000
+      internalID: 4718351938186694350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 284
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28317aadd778d5260800000000000000
+      internalID: 7087970363160073090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 285
+        width: 11
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4341c3cd3330c2f60800000000000000
+      internalID: 8010781358458410036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 250
+        width: 21
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328cad20398cef0d0800000000000000
+      internalID: -3387049336002394077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 250
+        width: 23
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39247956e8631d60800000000000000
+      internalID: 7859741113244199228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 252
+        width: 21
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfcaaaf09c9039b0800000000000000
+      internalID: -5102406231316049968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 221
+        width: 124
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f63f41387eb8790800000000000000
+      internalID: -7526667802041421959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 221
+        width: 62
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3964908d780ed3830800000000000000
+      internalID: 4052642113753007763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 219
+        width: 21
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c489935b4959ef170800000000000000
+      internalID: 8214167236298512460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 187
+        width: 23
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d3488c2b7ddcc10800000000000000
+      internalID: 2075552166155926881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 187
+        width: 19
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67820bafd9e4e75d0800000000000000
+      internalID: -3062924256142677898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 189
+        width: 28
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71863a88de7019130800000000000000
+      internalID: 3571644696262567959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 188
+        width: 30
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0734bbf2c60515a0800000000000000
+      internalID: -6551322648424204532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 192
+        width: 17
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400964f4bc28f20f0800000000000000
+      internalID: -1139548370981449724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 225
+        width: 18
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c6a58dc97127480800000000000000
+      internalID: -8903027550945907706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 187
+        width: 17
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6a32ed198db4010800000000000000
+      internalID: 1174270248868882119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 155
+        width: 94
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269ced4c7a736ef40800000000000000
+      internalID: 5757350367341758818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 189
+        width: 55
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8ee4154fe47ae30800000000000000
+      internalID: 4514663962705324266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 196
+        width: 36
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450978857e1950c70800000000000000
+      internalID: 8936709458395369556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 156
+        width: 26
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52158a97eeccd5cc0800000000000000
+      internalID: -3720592392522804955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 30
+        height: 175
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e7e062e8a7ab50800000000000000
+      internalID: 6604433068804007191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 162
+        width: 20
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f808a6c85051880800000000000000
+      internalID: -8640994209400057964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 159
+        width: 31
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c5cb9d50c273170800000000000000
+      internalID: 8158037653644401694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 163
+        width: 20
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32cc00ed18733f70800000000000000
+      internalID: 9165801736337408573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 128
+        width: 17
+        height: 47
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5260412b37936d0800000000000000
+      internalID: -3010247667243145789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 159
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d985dd46065b3bb0800000000000000
+      internalID: -4955272379915466283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 161
+        width: 14
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d94d68571b213830800000000000000
+      internalID: 4049064919250586066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 163
+        width: 37
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2a427c77c947e60800000000000000
+      internalID: 7959158479726617280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 26
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b30b185b2634600800000000000000
+      internalID: 451312919371594621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 94
+        width: 25
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2566ab305af47c80800000000000000
+      internalID: -8325754588596116181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 126
+        height: 125
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dacea61452e2c540800000000000000
+      internalID: 5026828984884579024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 94
+        width: 28
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0f7c1dc2d6b4880800000000000000
+      internalID: -8625680622032523040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 94
+        width: 28
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb9f4cc16238d8c0800000000000000
+      internalID: -3974371275533476933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 67
+        width: 18
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9386e9ead6158d120800000000000000
+      internalID: 2438788729744025657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 98
+        width: 15
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790c601ec4650e940800000000000000
+      internalID: 5323349647744745623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 31
+        width: 188
+        height: 123
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfe8e2685642e720800000000000000
+      internalID: 2873936857646297054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 62
+        width: 24
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f1745decd68a450800000000000000
+      internalID: 6100246430382235473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 65
+        width: 27
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d421cfed49e9a50800000000000000
+      internalID: 6529820195166506326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 4
+        width: 61
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c55ee09e84fa750800000000000000
+      internalID: 6318348968038587397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 30
+        height: 61
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14096d7fcb657a680800000000000000
+      internalID: -8743924781904654271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 31
+        height: 61
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a119cd018cc994ad0800000000000000
+      internalID: -2717468517051100902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 33
+        width: 29
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8c539ca7f7459c0800000000000000
+      internalID: -3939383608703858441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3
+        width: 18
+        height: 47
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f87a18514dcd790800000000000000
+      internalID: -7503889690271445092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 32
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e93005719f410a0800000000000000
+      internalID: -6911625649584890248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1
+        width: 30
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f59fbac0cd5290d0800000000000000
+      internalID: -3417566084604127754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 20
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9090fbe5edd8cd640800000000000000
+      internalID: 5106112063743133961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 58
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab4177ad27fc1600800000000000000
+      internalID: 440498639030274976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
