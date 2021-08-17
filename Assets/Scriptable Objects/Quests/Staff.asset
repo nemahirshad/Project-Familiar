@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe10e94a3ca20f74790d90bda1b93a47, type: 3}
   m_Name: Staff
   m_EditorClassIdentifier: 
-  amount: 0
+  amount: 2
