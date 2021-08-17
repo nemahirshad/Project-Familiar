@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4ae06693a7d9a4a92064250382d72a, type: 3}
   m_Name: Upgrades
   m_EditorClassIdentifier: 
-  start: 0
   melee: 0
   ranged: 0
   armor: 0
+  health1: 0
+  health2: 0
+  health3: 0
