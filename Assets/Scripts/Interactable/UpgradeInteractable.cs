@@ -31,17 +31,23 @@ public class UpgradeInteractable : Interactable
             {
                 case UpgradeType.MELEE:
                     stats.UpgradeMelee();
+                    stats.UpgradeHealth();
                     upgrade.melee = true;
+                    upgrade.health1 = true;
                     break;
 
                 case UpgradeType.RANGED:
                     stats.UpgradeRanged();
+                    stats.UpgradeHealth();
                     upgrade.ranged = true;
+                    upgrade.health2 = true;
                     break;
 
                 case UpgradeType.ARMOR:
                     stats.UpgradeArmor();
+                    stats.UpgradeHealth();
                     upgrade.armor = true;
+                    upgrade.health3 = true;
                     break;
             }
         }

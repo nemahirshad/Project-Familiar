@@ -29,11 +29,6 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
-        if (!levelZero)
-        {
-            heartSystem.DrawHearts(health, maxHealth);
-        }
-
         if (upgradeObject.melee)
         {
             UpgradeMelee();
@@ -47,6 +42,26 @@ public class PlayerStats : MonoBehaviour
         if (upgradeObject.armor)
         {
             UpgradeArmor();
+        }
+
+        if (upgradeObject.health1)
+        {
+            UpgradeHealth();
+        }
+
+        if (upgradeObject.health2)
+        {
+            UpgradeHealth();
+        }
+
+        if (upgradeObject.health3)
+        {
+            UpgradeHealth();
+        }
+
+        if (!levelZero)
+        {
+            heartSystem.DrawHearts(health, maxHealth);
         }
     }
 
@@ -89,5 +104,11 @@ public class PlayerStats : MonoBehaviour
     public void UpgradeArmor()
     {
         armor++;
+    }
+
+    public void UpgradeHealth()
+    {
+        maxHealth++;
+        health++;
     }
 }
