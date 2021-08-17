@@ -8,10 +8,7 @@ public class Follow : States
     {
         Manager.transform.position = Vector2.MoveTowards(Manager.transform.position, Manager.player.transform.position, Manager.myStats.speed * Time.deltaTime);
 
-        if (Vector2.Distance(Manager.player.transform.position, Manager.transform.position) > Manager.chaseRange)
-        {
-            Manager.SwitchState(new Idle());
-        }
+      
         if (Vector2.Distance(Manager.player.transform.position, Manager.transform.position) < Manager.attackRange)
         {
             Manager.SwitchState(new Attack());
