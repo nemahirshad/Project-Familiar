@@ -1980,12 +1980,12 @@ MonoBehaviour:
   myStats: {fileID: 676730656}
   firePoint: {fileID: 930163826}
   attackPoint: {fileID: 2060616750}
-  bulletPrefab: {fileID: 496879009512770615, guid: fa820a13a359a4b469fdf8f8ebc28e9b, type: 3}
+  bulletPrefab: {fileID: 858070585664029502, guid: 343662d79fe825844b7de27114db5df5, type: 3}
   animator: {fileID: 676730657}
   enemyLayers:
     serializedVersion: 2
     m_Bits: 8
-  bulletForce: 30
+  bulletForce: 10
   attackRange: 0.5
 --- !u!114 &676730656
 MonoBehaviour:
@@ -2230,7 +2230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 2-1
-  playSound: {fileID: 0}
+  playSound: {fileID: 871790046}
 --- !u!1001 &847001103
 PrefabInstance:
   m_ObjectHideFlags: 0
