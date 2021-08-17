@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public string sceneName;
+    public AudioSource playSound;
 
     // Update is called once per frame
     void OnTriggerEnter2D(Collider2D other)
@@ -13,6 +14,7 @@ public class ChangeScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(sceneName);
+            playSound.Play();
         }
     }
 }
