@@ -116,6 +116,8 @@ GameObject:
   - component: {fileID: 4855396880306527888}
   - component: {fileID: 4855396880306527891}
   - component: {fileID: 4855396880306527890}
+  - component: {fileID: 982063147224763715}
+  - component: {fileID: 7719241186521913565}
   m_Layer: 0
   m_Name: SkeletonKnight
   m_TagString: Untagged
@@ -253,7 +255,52 @@ MonoBehaviour:
   Player: {fileID: 0}
   Speed: 3
   ReturnToDistance: 5
-  ani: {fileID: 0}
+  ani: {fileID: 982063147224763715}
+--- !u!95 &982063147224763715
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855396880306527901}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 57151acce4161024eb654a0414c044d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7719241186521913565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855396880306527901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a97aeb7ca559d64cad60b3303bde251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  chaseRange: 0
+  attackRange: 0
+  myStats: {fileID: 0}
+  attackCooldown: 0
+  countdown: 0
+  rangeToPatrol: 0
+  StartWaitTtime: 0
+  waitTime: 0
+  moveSpots: []
+  randomSpot: 0
+  rb: {fileID: 0}
+  anim: {fileID: 982063147224763715}
+  timer: 0
 --- !u!1 &5856735518600216012
 GameObject:
   m_ObjectHideFlags: 0

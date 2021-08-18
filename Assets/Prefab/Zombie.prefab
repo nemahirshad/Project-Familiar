@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 479407078386767859}
   - component: {fileID: 479407078386767858}
   - component: {fileID: 479407078386767861}
+  - component: {fileID: 4142180222706342080}
   m_Layer: 3
   m_Name: Zombie
   m_TagString: Enemies
@@ -254,8 +255,12 @@ MonoBehaviour:
   attackCooldown: 0.5
   countdown: 0
   rangeToPatrol: 9
-  maxDistance: 4
-  wayPoint: {x: 6, y: 9}
+  StartWaitTtime: 0
+  waitTime: 0
+  moveSpots: []
+  randomSpot: 0
+  rb: {fileID: 0}
+  anim: {fileID: 4142180222706342080}
 --- !u!114 &479407078386767861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +293,25 @@ MonoBehaviour:
   fireballCountdown: 0
   fireballCount: 0
   lept: 0
+--- !u!95 &4142180222706342080
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479407078386767823}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd2300afd6e6bbe449e5aae44b3f5160, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &23458841
 PrefabInstance:
   m_ObjectHideFlags: 0
