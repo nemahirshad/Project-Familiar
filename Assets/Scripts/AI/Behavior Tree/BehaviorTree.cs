@@ -11,6 +11,8 @@ public class BehaviorTree : MonoBehaviour
     public GameObject target;
     public GameObject player;
 
+    public float range;
+
     public Stats myStats;
 
     // Update is called once per frame

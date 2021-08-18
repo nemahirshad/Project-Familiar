@@ -21,6 +21,8 @@ public class PlayerStats : MonoBehaviour
     public float speed;
     public float spellCooldown;
 
+    public string sceneName;
+
     public bool levelZero;
 
     bool immune;
@@ -69,7 +71,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (health <= 0)
         {
-            SceneManager.LoadScene("1-1");
+            SceneManager.LoadScene(sceneName);
         }
     }
 

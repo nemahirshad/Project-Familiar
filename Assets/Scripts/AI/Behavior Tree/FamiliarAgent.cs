@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class FamiliarAgent : BehaviorTree
 {
+    
     public FamiliarStats stats;
+
+    public GameObject home;
+
+    public LayerMask enemyLayers;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +29,7 @@ public class FamiliarAgent : BehaviorTree
         myStats = stats;
 
         stats.healCountdown = stats.healSpeed;
-        stats.attackCountdown = myStats.attackCooldown;
+        stats.attackCountdown = stats.attackCooldown;
         stats.auraCountdown = stats.auraDuration;
     }
 

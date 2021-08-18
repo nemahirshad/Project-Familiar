@@ -6,6 +6,8 @@ public class EnemyAI : MonoBehaviour
 {
     public GameObject player;
 
+    public GameObject deathEffect;
+
     public float chaseRange;
     public float attackRange;
     public EnemyStats myStats;
@@ -19,7 +21,8 @@ public class EnemyAI : MonoBehaviour
 
     public Vector2 wayPoint;
 
-    
+    bool played;
+
    private void Start()
     {
         currentstate = new Patrol();
@@ -41,6 +44,7 @@ public class EnemyAI : MonoBehaviour
         if (myStats.health <= 0)
         {
             Destroy(gameObject);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
     }
 

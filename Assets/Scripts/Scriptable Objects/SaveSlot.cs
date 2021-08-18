@@ -10,4 +10,6 @@ public class SaveSlot : ScriptableObject
     public Vector3 position;
 
     public int bond;
+
+    public bool level2;
 }

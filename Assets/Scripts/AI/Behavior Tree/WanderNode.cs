@@ -6,6 +6,6 @@ public class WanderNode : ActionNode
 {
     public override NodeOutcome Execute(BehaviorTree bt)
     {
-        return base.Execute(bt);
+        return NodeOutcome.SUCCESS;
     }
 }

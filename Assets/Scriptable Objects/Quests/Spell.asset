@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Spell
   m_EditorClassIdentifier: 
   amount: 0
+  questName: Skeletons

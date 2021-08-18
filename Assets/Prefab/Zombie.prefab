@@ -248,6 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  deathEffect: {fileID: 606969578461660792, guid: 092de57923c393a4db5bd6e6511f0148, type: 3}
   chaseRange: 5
   attackRange: 2
   myStats: {fileID: 479407078386767861}
