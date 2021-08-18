@@ -8,12 +8,14 @@ public class AttackNode : ActionNode
     {
         if (bt.myStats.attackCountdown <= 0)
         {
-            bt.player.GetComponent<PlayerStats>().TakeDamage(bt.myStats.damage);
+            bt.target.GetComponent<Stats>().TakeDamage(bt.myStats.damage);
             bt.myStats.attackCountdown = bt.myStats.attackCooldown;
 
             return NodeOutcome.SUCCESS;
         }
-
-        return NodeOutcome.FAIL;
+        else
+        {
+            return NodeOutcome.FAIL;
+        }        
     }
 }

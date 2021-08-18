@@ -36,5 +36,5 @@ MonoBehaviour:
     color: {r: 1, g: 1, b: 1, a: 1}
     text: Use the right mouse button to cast a spell, careful there is a cool down
   question: {fileID: 0}
-  sceneChange: 0
-  scene: 
+  sceneChange: 1
+  scene: 1-2

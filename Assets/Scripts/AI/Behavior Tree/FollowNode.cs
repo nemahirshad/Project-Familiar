@@ -13,7 +13,7 @@ public class FollowNode : ActionNode
 
         bt.transform.position = Vector2.MoveTowards(bt.transform.position, bt.player.transform.position, ((FamiliarAgent)bt).myStats.speed * Time.deltaTime);
 
-        if (Vector2.Distance(bt.player.transform.position, bt.transform.position) < bt.myStats.attackRange)
+        if (Vector2.Distance(bt.player.transform.position, bt.transform.position) < ((FamiliarAgent)bt).range/2)
         {
             return NodeOutcome.SUCCESS;
         }
