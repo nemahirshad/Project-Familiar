@@ -1606,7 +1606,7 @@ GameObject:
   - component: {fileID: 340402804}
   m_Layer: 0
   m_Name: Worker
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2602,7 +2602,7 @@ GameObject:
   - component: {fileID: 556364744}
   m_Layer: 0
   m_Name: Priest
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2863,7 +2863,7 @@ GameObject:
   - component: {fileID: 660655796}
   m_Layer: 0
   m_Name: Guard (1)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3379,7 +3379,6 @@ GameObject:
   - component: {fileID: 732559053}
   - component: {fileID: 732559052}
   - component: {fileID: 732559051}
-  - component: {fileID: 732559050}
   m_Layer: 0
   m_Name: Next Scene 2-2
   m_TagString: Untagged
@@ -3387,20 +3386,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &732559050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732559049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 2-2
-  playSound: {fileID: 496816996}
 --- !u!61 &732559051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3836,11 +3821,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7554112048643482577, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.379957
+      value: 94.3
       objectReference: {fileID: 0}
     - target: {fileID: 7554112048643482577, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 37.770058
+      value: 31.5
       objectReference: {fileID: 0}
     - target: {fileID: 7554112048643482577, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4121,7 +4106,7 @@ GameObject:
   - component: {fileID: 823325342}
   m_Layer: 0
   m_Name: Teacher
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4455,7 +4440,7 @@ GameObject:
   - component: {fileID: 894295940}
   m_Layer: 0
   m_Name: Wizard
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4569,7 +4554,7 @@ GameObject:
   - component: {fileID: 916102863}
   m_Layer: 0
   m_Name: Villager (3)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4683,7 +4668,7 @@ GameObject:
   - component: {fileID: 925007656}
   m_Layer: 0
   m_Name: Villager (1)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13438,7 +13423,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 5.3541665
+  m_Radius: 4
 --- !u!114 &1304973812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13451,7 +13436,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf0500b7749ff404c9cb9a077f193a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 1-1 TP
+  sceneName: 1-1
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!1 &1365734485
 GameObject:
   m_ObjectHideFlags: 0
@@ -79451,7 +79437,7 @@ GameObject:
   - component: {fileID: 1972981434}
   m_Layer: 0
   m_Name: Guard
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80112,7 +80098,6 @@ GameObject:
   - component: {fileID: 2108168713}
   - component: {fileID: 2108168712}
   - component: {fileID: 2108168711}
-  - component: {fileID: 2108168710}
   m_Layer: 0
   m_Name: Next Scene 1-2
   m_TagString: Untagged
@@ -80120,20 +80105,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2108168710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108168709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 1-2
-  playSound: {fileID: 0}
 --- !u!61 &2108168711
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -7,8 +7,13 @@ public class Teleport : MonoBehaviour
 {
     public string sceneName;
 
+    public UpgradeObject upgrade;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(sceneName);
+        if (upgrade.level2)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

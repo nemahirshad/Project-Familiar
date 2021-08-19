@@ -95,17 +95,17 @@ public class PlayerStats : MonoBehaviour
 
     public void UpgradeMelee()
     {
-        staffDamage++;
+        staffDamage = 2;
     }
 
     public void UpgradeRanged()
     {
-        spellCooldown = 2.5f;
+        spellCooldown = 1f;
     }
 
     public void UpgradeArmor()
     {
-        armor++;
+        armor = 1;
     }
 
     public void UpgradeHealth()

@@ -11,6 +11,17 @@ public class FamiliarAgent : BehaviorTree
 
     public LayerMask enemyLayers;
 
+    public Vector2 newDir;
+
+    public float animationTimer;
+    public float wanderTimer;
+
+    Vector2 currentPosition;
+    Vector2 endPosition;
+    
+    float animationCountdown;
+    float wanderCountdown;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,5 +51,37 @@ public class FamiliarAgent : BehaviorTree
         stats.auraCountdown -= Time.deltaTime;
         stats.healCountdown -= Time.deltaTime;
         stats.attackCountdown -= Time.deltaTime;
+
+        wanderCountdown -= Time.deltaTime;
+
+        if (wanderCountdown <= 0)
+        {
+            GetNewHeading();
+            wanderCountdown = wanderTimer;
+        }
+
+        animationCountdown -= Time.deltaTime;
+        if (animationCountdown <= 0)
+        {
+            endPosition = transform.position;
+            animationCountdown = animationTimer;
+        }
+        currentPosition = transform.position;
+
+        Vector2 direction = endPosition - currentPosition;
+
+        if (direction.x > -1 || direction.x < 1)
+        {
+            anim.SetFloat("x", -direction.x);
+        }
+        if (direction.y > -1 || direction.y < 1)
+        {
+            anim.SetFloat("y", -direction.y);
+        }
+    }
+
+    void GetNewHeading()
+    {
+        newDir = new Vector2(Random.Range(-1, 1), Random.Range(-1, 1));
     }
 }

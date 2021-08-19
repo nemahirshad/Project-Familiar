@@ -3674,7 +3674,7 @@ GameObject:
   - component: {fileID: 732559051}
   - component: {fileID: 732559050}
   m_Layer: 0
-  m_Name: Next Scene 3-1
+  m_Name: Next Scene 2-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3692,8 +3692,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 2-1
+  sceneName1: 2-2 Return
+  sceneName2: 2-2 Return
   playSound: {fileID: 0}
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!61 &732559051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65120,8 +65122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 3-2
+  sceneName1: 3-2
+  sceneName2: 3-2
   playSound: {fileID: 0}
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!61 &964883563
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ MonoBehaviour:
     color: {r: 0, g: 1, b: 0.7564633, a: 1}
     text: No can do! Only way is if you get me a permission slip!
   - character: 
-    color: {r: 0, g: 1, b: 0.7564633, a: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
     text: Marbles gets ready to attack
   question: {fileID: 11400000, guid: 89d623b41f19016448c414277fde63f4, type: 2}
   sceneChange: 0

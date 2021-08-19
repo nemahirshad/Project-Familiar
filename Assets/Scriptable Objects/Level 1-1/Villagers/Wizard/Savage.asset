@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Savage
   m_EditorClassIdentifier: 
   lines:
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: YEOWCH!!!
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: SAVAGES
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: And here I was gonna help you!
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: If you want my help, go defeat 5 zombies and then come back and we'll see
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: Head to the right of this path and come back once you've dealt with the
       zombies

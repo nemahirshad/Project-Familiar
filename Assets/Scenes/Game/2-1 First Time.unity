@@ -3252,7 +3252,6 @@ GameObject:
   - component: {fileID: 732559053}
   - component: {fileID: 732559052}
   - component: {fileID: 732559051}
-  - component: {fileID: 732559050}
   m_Layer: 0
   m_Name: Next Scene 2-2
   m_TagString: Untagged
@@ -3260,20 +3259,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &732559050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732559049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 2-2
-  playSound: {fileID: 0}
 --- !u!61 &732559051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3709,11 +3694,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7554112048643482577, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 98
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 7554112048643482577, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.9
+      value: 37.2
       objectReference: {fileID: 0}
     - target: {fileID: 7554112048643482577, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_LocalPosition.z
@@ -79926,7 +79911,6 @@ GameObject:
   - component: {fileID: 2108168713}
   - component: {fileID: 2108168712}
   - component: {fileID: 2108168711}
-  - component: {fileID: 2108168710}
   m_Layer: 0
   m_Name: Next Scene 1-2
   m_TagString: Untagged
@@ -79934,20 +79918,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2108168710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108168709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 1-2
-  playSound: {fileID: 0}
 --- !u!61 &2108168711
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -79958,7 +79928,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -1.5183834, y: -0.099975586}

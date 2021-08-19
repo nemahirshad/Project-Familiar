@@ -77,6 +77,7 @@ public class DialogueManager : MonoBehaviour
         }
         else if (conversation.sceneChange)
         {
+            Time.timeScale = 1;
             SceneManager.LoadScene(conversation.scene);
         }
         else

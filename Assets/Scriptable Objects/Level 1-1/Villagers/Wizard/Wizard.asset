@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Wizard
   m_EditorClassIdentifier: 
   lines:
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: Well lets see here, a little witch who wants to help
-  - character: 
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: That's a beautiful staff would be a waste on someone like you
   - character: Willow

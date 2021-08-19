@@ -19,14 +19,14 @@ MonoBehaviour:
   - character: Marbles
     color: {r: 1, g: 1, b: 0, a: 1}
     text: '*Purr*'
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: I suppose you came looking for help
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: If you want my help, go defeat 5 zombies and then come back and we'lls
       ee
-  - character: Krom
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: Head to the right of this path and come back once you've dealt with the
       zombies

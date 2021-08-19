@@ -23,6 +23,36 @@ public class UpgradeInteractable : Interactable
 
     public int amountNeeded;
 
+    void Start()
+    {
+        switch (quest.questName)
+        {
+            case "Zombies":
+                if (upgrade.melee)
+                {
+                    npc.SetActive(true);
+                    gameObject.SetActive(false);
+                }
+                break;
+
+            case "Skeletons":
+                if (upgrade.ranged)
+                {
+                    npc.SetActive(true);
+                    gameObject.SetActive(false);
+                }
+                break;
+
+            case "Hat":
+                if (upgrade.armor)
+                {
+                    npc.SetActive(true);
+                    gameObject.SetActive(false);
+                }
+                break;
+        }
+    }
+
     public override void DoInteraction()
     {
         if (quest.amount >= amountNeeded)
@@ -30,26 +60,37 @@ public class UpgradeInteractable : Interactable
             switch (type)
             {
                 case UpgradeType.MELEE:
-                    stats.UpgradeMelee();
-                    stats.UpgradeHealth();
-                    upgrade.melee = true;
-                    upgrade.health1 = true;
+                    if (!upgrade.melee)
+                    {
+                        stats.UpgradeMelee();
+                        stats.UpgradeHealth();
+                        upgrade.melee = true;
+                        upgrade.health1 = true;
+                    }
                     break;
 
                 case UpgradeType.RANGED:
-                    stats.UpgradeRanged();
-                    stats.UpgradeHealth();
-                    upgrade.ranged = true;
-                    upgrade.health2 = true;
+                    if (!upgrade.ranged)
+                    {
+                        stats.UpgradeRanged();
+                        stats.UpgradeHealth();
+                        upgrade.ranged = true;
+                        upgrade.health2 = true;
+                    }
                     break;
 
                 case UpgradeType.ARMOR:
-                    stats.UpgradeArmor();
-                    stats.UpgradeHealth();
-                    upgrade.armor = true;
-                    upgrade.health3 = true;
+                    if (!upgrade.armor)
+                    {
+                        stats.UpgradeArmor();
+                        stats.UpgradeHealth();
+                        upgrade.armor = true;
+                        upgrade.health3 = true;
+                    }
                     break;
             }
+            npc.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 }

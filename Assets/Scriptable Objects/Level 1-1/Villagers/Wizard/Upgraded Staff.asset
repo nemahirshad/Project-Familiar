@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Upgraded Staff
   m_EditorClassIdentifier: 
   lines:
-  - character: Wizard
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: I have imbued your staff with more magical powers
-  - character: Wizard
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: The zombies should be easier to deal with now
-  - character: Wizard
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: There's nothing left here for you
-  - character: Wizard
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: Go past the zombies and find the rest of the villagers
-  - character: Wizard
+  - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
     text: I'll join you soon
   - character: Willow

@@ -28,9 +28,7 @@ public class EnemyAI : MonoBehaviour
     public float timer;
     private float countDown;
 
-
-
-
+    public GameObject deathEffect;
 
    public void Start()
     {
@@ -55,6 +53,7 @@ public class EnemyAI : MonoBehaviour
         if (myStats.health <= 0)
         {
             Destroy(gameObject);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
 
         countDown -= Time.deltaTime;
@@ -69,12 +68,10 @@ public class EnemyAI : MonoBehaviour
 
         if(direction.x > -1 || direction.x < 1)
         {
-            Debug.Log("x direct");
             anim.SetFloat("x", direction.x);
         }
         if(direction.y > -1 || direction.y < 1)
         {
-            Debug.Log("y direct");
             anim.SetFloat("y", direction.y);
         }
     }

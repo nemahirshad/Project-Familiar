@@ -3273,8 +3273,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 2-2
+  sceneName1: 2-2
+  sceneName2: 2-2
   playSound: {fileID: 0}
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!61 &732559051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3365,7 +3367,7 @@ Transform:
   m_LocalScale: {x: 3.6617162, y: 4.752552, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &739824751
 GameObject:
@@ -4291,7 +4293,7 @@ MonoBehaviour:
   upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
   stats: {fileID: 770616162}
   combat: {fileID: 770616161}
-  amountNeeded: 25
+  amountNeeded: 15
 --- !u!70 &894295941
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -13262,6 +13264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 1-1
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!1 &1365734485
 GameObject:
   m_ObjectHideFlags: 0
@@ -14332,7 +14335,7 @@ Transform:
   - {fileID: 337490495}
   - {fileID: 741720066}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1717511556
 GameObject:
@@ -80056,8 +80059,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 1-2
+  sceneName1: 1-2 Return
+  sceneName2: 1-2 Return
   playSound: {fileID: 0}
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!61 &2108168711
 BoxCollider2D:
   m_ObjectHideFlags: 0

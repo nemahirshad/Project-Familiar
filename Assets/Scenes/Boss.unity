@@ -753,6 +753,14 @@ PrefabInstance:
       propertyPath: home
       value: 
       objectReference: {fileID: 1685928576}
+    - target: {fileID: 7554112050502462424, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: wanderTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554112050502462424, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: animationTimer
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7554112050502462425, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: text
       value: 

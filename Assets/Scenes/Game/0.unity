@@ -799,8 +799,8 @@ GameObject:
   m_Component:
   - component: {fileID: 428271527}
   - component: {fileID: 428271526}
-  - component: {fileID: 428271529}
   - component: {fileID: 428271530}
+  - component: {fileID: 428271529}
   - component: {fileID: 428271528}
   m_Layer: 0
   m_Name: Familiar
@@ -850,8 +850,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 0.9075024, b: 0, a: 1}
+  m_Sprite: {fileID: 609809922257440181, guid: 7ace6bea40c0b1c44a07f06b62798733, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -884,12 +884,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 428271525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3766f7025d4733499883efad8c5c517, type: 3}
+  m_Script: {fileID: 11500000, guid: 9341448bd9147104cb9ccc14706dd8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   convo: {fileID: 11400000, guid: a2f1c7c37acc6534d86b08ed17813b6c, type: 2}
---- !u!70 &428271529
-CapsuleCollider2D:
+--- !u!61 &428271529
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -902,8 +902,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.99999994, y: 1.9999999}
-  m_Direction: 0
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.78125, y: 2.0625}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
 --- !u!114 &428271530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1625,6 +1635,7 @@ MonoBehaviour:
   armor: 0
   speed: 5
   spellCooldown: 1
+  sceneName: 
   levelZero: 1
   heartSystem: {fileID: 18253841}
 --- !u!95 &676730657
@@ -2034,6 +2045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 1-1 First Time
+  playSound: {fileID: 0}
 --- !u!1 &1238771257
 GameObject:
   m_ObjectHideFlags: 0

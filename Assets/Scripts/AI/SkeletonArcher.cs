@@ -17,65 +17,54 @@ public class SkeletonArcher : MonoBehaviour
 
     private EnemyStats myStats;
     public Transform followKnight;
-    
-    
 
+    public GameObject deathEffect;
 
-   
     private void Start()
     {
         arrowshootCooldown = arrowshootRate;
         myStats = GetComponent<EnemyStats>();
     }
     
-
    void  ShootArrow()
-    {
+   {
         GameObject arrow = Instantiate(arrowPrefab, firePoint.position, firePoint.rotation);
         arrow.GetComponent<SkeletonArrow>().myStats = myStats;
         Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * arrowSpeed, ForceMode2D.Impulse);
-        
-       
-    }
-
-
-
+   }
 
     void Update()
     {
         if (myStats.health <= 0)
         {
             Destroy(gameObject);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
-
 
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
 
         if (distanceFromPlayer <= LineOfSight)
         {
-
             if (Vector2.Distance(transform.position, player.position) < retreatDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, player.position, -moveSpeed * Time.deltaTime);
             }
-
         }
         else
         {
-           
-            if (Vector2.Distance(transform.position, followKnight.position) > stoppingDistance)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, followKnight.position, moveSpeed * Time.deltaTime);
-            }
-            else if (Vector2.Distance(transform.position, followKnight.position) < stoppingDistance && Vector2.Distance(transform.position, followKnight.position) > retreatDistance)
-            {
-                transform.position = this.transform.position;
-            }
+           if (followKnight)
+           {
+                if (Vector2.Distance(transform.position, followKnight.position) > stoppingDistance)
+                {
+                    transform.position = Vector2.MoveTowards(transform.position, followKnight.position, moveSpeed * Time.deltaTime);
+                }
+                else if (Vector2.Distance(transform.position, followKnight.position) < stoppingDistance && Vector2.Distance(transform.position, followKnight.position) > retreatDistance)
+                {
+                    transform.position = this.transform.position;
+                }
+           }
         }
-
-
-
 
         if (distanceFromPlayer < LineOfSight && arrowshootCooldown < Time.deltaTime)
         {
@@ -87,9 +76,6 @@ public class SkeletonArcher : MonoBehaviour
         {
             arrowshootCooldown -= Time.deltaTime;
         }
-
-
-
     }
 
     private void OnDrawGizmosSelected()

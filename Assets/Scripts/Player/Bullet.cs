@@ -21,5 +21,9 @@ public class Bullet : MonoBehaviour
             collision.transform.GetComponent<EnemyStats>().TakeDamage(damage);
             Destroy(gameObject);
         }
+        else if (collision.CompareTag("Knight"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

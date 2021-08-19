@@ -113,6 +113,7 @@ MonoBehaviour:
   retreatDistance: 10
   LineOfSight: 7
   followKnight: {fileID: 0}
+  deathEffect: {fileID: 606969578461660792, guid: 092de57923c393a4db5bd6e6511f0148, type: 3}
 --- !u!114 &5670132963895919684
 MonoBehaviour:
   m_ObjectHideFlags: 0

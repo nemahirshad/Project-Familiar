@@ -18,7 +18,7 @@ MonoBehaviour:
     text: Nice go show him that badge
   - character: Wizzy
     color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
-    text: Also go kill 25 skeletons, and I'll upgrade your spell
+    text: Also go kill 15 skeletons, and I'll upgrade your spell
   question: {fileID: 0}
   sceneChange: 0
   scene: 

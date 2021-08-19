@@ -16,9 +16,9 @@ MonoBehaviour:
   character: 
   color: {r: 1, g: 1, b: 1, a: 1}
   choices:
-  - conversation: {fileID: 0}
+  - conversation: {fileID: 11400000, guid: e691d050701c0314ca9a9d70754efc7e, type: 2}
     text: Let marbles attack
     familiarBond: -10
-  - conversation: {fileID: 0}
+  - conversation: {fileID: 11400000, guid: cdc459fcfadc6e84aaf51b0d8f9a73ad, type: 2}
     text: Stop Marbles
     familiarBond: 10
