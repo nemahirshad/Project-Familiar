@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
+  m_Name: NiceWizard
+  m_EditorClassIdentifier: 
+  lines:
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: Well the little bug is growing on me
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: He's adorable
+  - character: Marbles
+    color: {r: 1, g: 1, b: 0, a: 1}
+    text: '*Purr*'
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: How does it even do that?
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: Anyways, go to Sophie the soldier
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: She'll give you something to help, for now step in the circle
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: You step on the circle
+  question: {fileID: 0}
+  sceneChange: 1
+  scene: 1-1 TP

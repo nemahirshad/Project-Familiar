@@ -15,11 +15,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/1-1 First Time.unity
     guid: 0dfca03564abdfc42aa87b9d001e7141
   - enabled: 1
+    path: Assets/Scenes/Game/1-1 TP.unity
+    guid: 4221635ceb600274eac68f558a2ce37d
+  - enabled: 1
     path: Assets/Scenes/Game/1-1.unity
     guid: 8ef1bc9547797cc4581be12892921464
   - enabled: 1
     path: Assets/Scenes/Game/1-2.unity
     guid: e114c95e32dd17f4faae56dc80757d52
+  - enabled: 1
+    path: Assets/Scenes/Game/2-1 First Time.unity
+    guid: 9b900f71a72edb74db6dc75a8a253822
+  - enabled: 1
+    path: Assets/Scenes/Game/2-1 TP.unity
+    guid: 9af182b985c7a584289ef2fdefc871a5
   - enabled: 1
     path: Assets/Scenes/Game/2-1.unity
     guid: d21a872e9c80f33419ab817852addedd
@@ -29,7 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/3-2.unity
     guid: 04fcc5854a36cac4190b03930a652cd7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Game/TBC.unity
     guid: 85cae3326c41f954e8868c064e2f7171
   m_configObjects: {}

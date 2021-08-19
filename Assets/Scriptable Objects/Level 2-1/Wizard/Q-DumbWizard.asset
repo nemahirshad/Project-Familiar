@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7485a34f302ae6c4b8e47b91b4dd1112, type: 3}
+  m_Name: Q-DumbWizard
+  m_EditorClassIdentifier: 
+  text: "What do you do?\t"
+  character: 
+  color: {r: 1, g: 1, b: 1, a: 1}
+  choices:
+  - conversation: {fileID: 11400000, guid: edfffe9364bf8d642ace29cb6374e09e, type: 2}
+    text: Command Marbles to bite the wizard
+    familiarBond: 10
+  - conversation: {fileID: 11400000, guid: 1787e69adfb3b2249a3fe0fd813a8d73, type: 2}
+    text: Calm Marbles down
+    familiarBond: 0

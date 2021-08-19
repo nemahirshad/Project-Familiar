@@ -10,19 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
-  m_Name: Tom
+  m_Name: Fear
   m_EditorClassIdentifier: 
   lines:
-  - character: Soldier Sophie
-    color: {r: 0, g: 0.43634176, b: 1, a: 1}
-    text: Let me guess, you met Bob and Jim
-  - character: Willow
-    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
-    text: Yeah, how did you know!
-  - character: Tom
-    color: {r: 0, g: 0.43634176, b: 1, a: 1}
-    text: You look tired and those two idiots are the only ones capable of ruining
-      your day in seconds
+  - character: Ajax
+    color: {r: 0.41509432, g: 0, b: 0, a: 1}
+    text: Everyone's too afraid to even come out, weaklings
   question: {fileID: 0}
   sceneChange: 0
   scene: 

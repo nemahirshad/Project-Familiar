@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
+  m_Name: Final Wizard
+  m_EditorClassIdentifier: 
+  lines:
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: Well here we are...
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: Yeah
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: The necromancer is in that tower
+  - character: Willow
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
+    text: I guess this is it
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: Good luck Willow, you too Marbles
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: Godspeed
+  question: {fileID: 0}
+  sceneChange: 0
+  scene: 

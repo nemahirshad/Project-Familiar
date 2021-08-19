@@ -19,6 +19,10 @@ public class ChaseNode : ActionNode
             {
                 bt.target = hitEnemies[Random.Range(0, hitEnemies.Length)].gameObject;
             }
+            else
+            {
+                return NodeOutcome.FAIL;
+            }
         }
 
         bt.transform.position = Vector2.MoveTowards(bt.transform.position, bt.target.transform.position, bt.myStats.speed * Time.deltaTime);
