@@ -23,4 +23,6 @@ public class Conversation : ScriptableObject
     public bool sceneChange;
 
     public string scene;
+
+    public UpgradeObject upgrade;
 }

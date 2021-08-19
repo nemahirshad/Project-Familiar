@@ -9,11 +9,25 @@ public class Teleport : MonoBehaviour
 
     public UpgradeObject upgrade;
 
+    public bool badge;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (upgrade.level2)
+        if (!badge)
         {
-            SceneManager.LoadScene(sceneName);
+            if (upgrade.level2)
+            {
+                SceneManager.LoadScene(sceneName);
+                upgrade.level2 = false;
+            }
+        }
+        else
+        {
+            if (upgrade.canPass)
+            {
+                SceneManager.LoadScene(sceneName);
+                upgrade.level2 = false;
+            }
         }
     }
 }

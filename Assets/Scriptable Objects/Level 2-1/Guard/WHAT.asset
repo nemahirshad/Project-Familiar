@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - character: Willow
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
     text: Look what I have
   - character: Tom
     color: {r: 0, g: 1, b: 0.7564633, a: 1}
@@ -31,3 +31,4 @@ MonoBehaviour:
   question: {fileID: 0}
   sceneChange: 1
   scene: 2-2
+  upgrade: {fileID: 0}

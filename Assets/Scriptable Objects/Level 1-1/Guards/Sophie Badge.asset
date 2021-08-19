@@ -31,3 +31,4 @@ MonoBehaviour:
   question: {fileID: 0}
   sceneChange: 0
   scene: 
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}

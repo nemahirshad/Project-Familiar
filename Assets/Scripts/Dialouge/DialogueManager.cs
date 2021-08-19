@@ -86,6 +86,11 @@ public class DialogueManager : MonoBehaviour
             lineIndex = 0;
             inDialogue = false;
 
+            if (conversation.upgrade)
+            {
+                conversation.upgrade.canPass = true;
+            }
+
             //Unpause the game
             Time.timeScale = 1;
 
