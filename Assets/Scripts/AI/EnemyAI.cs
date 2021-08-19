@@ -21,9 +21,17 @@ public class EnemyAI : MonoBehaviour
     public Transform[] moveSpots;
     public int randomSpot;
 
+    public Rigidbody2D rb;
+    public Animator anim;
+    private Vector2 currentPosition;
+    private Vector2 endPosition;
+    public float timer;
+    private float countDown;
 
 
-    
+
+
+
    public void Start()
     {
         waitTime = StartWaitTtime;
@@ -31,6 +39,7 @@ public class EnemyAI : MonoBehaviour
         myStats = GetComponent<EnemyStats>();
         countdown = attackCooldown;
         randomSpot = Random.Range(0, moveSpots.Length);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public virtual void SwitchState(States newState)
@@ -47,10 +56,28 @@ public class EnemyAI : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        countDown -= Time.deltaTime;
+        if(countDown <= 0)
+        {
+            endPosition = transform.position;
+            countDown = timer;
+        }
+        currentPosition = transform.position;
+
+        Vector2 direction = endPosition - currentPosition;
+
+        if(direction.x > -1 || direction.x < 1)
+        {
+            Debug.Log("x direct");
+            anim.SetFloat("x", direction.x);
+        }
+        if(direction.y > -1 || direction.y < 1)
+        {
+            Debug.Log("y direct");
+            anim.SetFloat("y", direction.y);
+        }
     }
 
-    /*public void SetNewDestination()
-    {
-        wayPoint = new Vector2(Random.Range(-maxDistance, maxDistance), Random.Range(-maxDistance, maxDistance));
-    }*/
+    
 }
