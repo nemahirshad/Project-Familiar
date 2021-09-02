@@ -3881,6 +3881,14 @@ PrefabInstance:
       propertyPath: levelZero
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7554112049675148140, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: playSoundMelee
+      value: 
+      objectReference: {fileID: 8673090340768368569, guid: fc8898dba1b2dc948a70c69ff3b98bfd, type: 3}
+    - target: {fileID: 7554112049675148140, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: playSoundShoot
+      value: 
+      objectReference: {fileID: 893101109697841806, guid: dc6bb5701ff0243468e3c19890f09291, type: 3}
     - target: {fileID: 7554112049675148141, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_Enabled
       value: 1

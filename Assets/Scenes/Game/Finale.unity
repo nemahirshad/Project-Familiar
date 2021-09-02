@@ -4412,6 +4412,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5581348379137725174, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: Priority
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 5581348379137725174, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5581348379137725174, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 88c58dc41a914b349a9e10248d0fd985, type: 3}
     - target: {fileID: 7220808499923045317, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4488,6 +4500,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7554112049675148140, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: playSoundMelee
+      value: 
+      objectReference: {fileID: 8673090340768368569, guid: fc8898dba1b2dc948a70c69ff3b98bfd, type: 3}
+    - target: {fileID: 7554112049675148140, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: playSoundShoot
+      value: 
+      objectReference: {fileID: 893101109697841806, guid: dc6bb5701ff0243468e3c19890f09291, type: 3}
     - target: {fileID: 7554112049675148141, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_Enabled
       value: 1
