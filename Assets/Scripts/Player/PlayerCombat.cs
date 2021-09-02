@@ -14,6 +14,8 @@ public class PlayerCombat : MonoBehaviour
     public GameObject bulletPrefab;
 
     public Animator animator;
+    public AudioSource playSoundShoot;
+    public AudioSource playSoundMelee;
 
     public LayerMask enemyLayers;
 
@@ -36,11 +38,16 @@ public class PlayerCombat : MonoBehaviour
         if (Input.GetMouseButtonDown(1) && cooldown <= 0)
         {
             Shoot();
+
+            playSoundShoot.Play();
+            Debug.Log("hi");
+
             cooldown = myStats.spellCooldown;
         }
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
+            playSoundMelee.Play();
         }
     }
 
