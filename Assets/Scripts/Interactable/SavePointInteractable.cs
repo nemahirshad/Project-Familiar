@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class SavePointInteractable : Interactable
 {
-    public SaveLoad save;
-
     public AudioSource audioSource;
+
+    public Bond bond;
+
+    public UpgradeObject upgrade;
+
+    public string sceneName;
 
     public override void DoInteraction()
     {
-        save.Save();
+        SaveLoad.Save(upgrade, bond, sceneName);
         audioSource.Play();
     }
 }

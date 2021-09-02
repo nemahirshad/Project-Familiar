@@ -174,6 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 1942567530705872424, guid: 4ee1a92ff31acdb4abe80be8f4a6b68a, type: 3}
   brokenHeartPrefab: {fileID: 4540895146661261688, guid: 4f1db5eb8e94853499e2db79faec06d4, type: 3}
+  scale: 1
 --- !u!114 &18253842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,6 +2029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 3780101954230433704, guid: c856d8db60a7cc140a3c78671e135882, type: 3}
   brokenHeartPrefab: {fileID: 4540895146661261688, guid: 4f1db5eb8e94853499e2db79faec06d4, type: 3}
+  scale: 1
 --- !u!114 &712595565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104696,6 +104698,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 630059652}
     - target: {fileID: 1912509468424505263, guid: 075d31ee882075d4f850d159c1490d68, type: 3}
+      propertyPath: bond
+      value: 
+      objectReference: {fileID: 11400000, guid: 9881ee35a521cce4e95d1d73aa99655e, type: 2}
+    - target: {fileID: 1912509468424505263, guid: 075d31ee882075d4f850d159c1490d68, type: 3}
+      propertyPath: upgrade
+      value: 
+      objectReference: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
+    - target: {fileID: 1912509468424505263, guid: 075d31ee882075d4f850d159c1490d68, type: 3}
+      propertyPath: sceneName
+      value: 2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912509468424505263, guid: 075d31ee882075d4f850d159c1490d68, type: 3}
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1912509470393837253}
@@ -104703,7 +104717,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1912509468424505262, guid: 075d31ee882075d4f850d159c1490d68, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075d31ee882075d4f850d159c1490d68, type: 3}
 --- !u!1 &1912509470393837252 stripped
 GameObject:

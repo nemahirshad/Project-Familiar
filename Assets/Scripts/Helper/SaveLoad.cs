@@ -1,23 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
-public class SaveLoad : MonoBehaviour
+public static class SaveLoad
 {
-    public SaveSlot save;
-
-    public GameObject player;
-
-    public void Save()
+    public static void Save(UpgradeObject upgrade, Bond bond, string sceneName)
     {
-        save.sceneName = SceneManager.GetActiveScene().name;
-        save.position = player.transform.position;
+        BinaryFormatter formatter = new BinaryFormatter();
+
+        string path = Application.persistentDataPath + "/Player.Woohoo";
+
+        FileStream stream = new FileStream(path, FileMode.Create);
+        
+        SaveSlot data = new SaveSlot(upgrade, bond, sceneName);
+
+        formatter.Serialize(stream, data);
+        stream.Close();
     }
 
-    public void Load()
+    public static SaveSlot Load()
     {
-        SceneManager.LoadScene(save.sceneName);
-        player.transform.position = save.position;
+        string path = Application.persistentDataPath + "/Player.Woohoo";
+
+        if (File.Exists(path))
+        {
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
+
+            SaveSlot data = formatter.Deserialize(stream) as SaveSlot;
+
+            stream.Close();
+
+            return data;
+        }
+        else
+        {
+            Debug.LogError("Save File not found in" + path);
+            return null;
+        }
     }
 }

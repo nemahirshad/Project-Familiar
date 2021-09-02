@@ -384,7 +384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88ef1f8b6472674cb1f7a83122deeee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save: {fileID: 11400000, guid: ddcf64c1563419041ba25cff97e3f6a3, type: 2}
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
+  bond: {fileID: 11400000, guid: 9881ee35a521cce4e95d1d73aa99655e, type: 2}
 --- !u!1 &620254797
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1321545858
 RectTransform:
   m_ObjectHideFlags: 0
