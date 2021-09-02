@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 482589944bac7674fbaa3510498a3615, type: 3}
   m_Name: Familiar Bond
   m_EditorClassIdentifier: 
-  bond: 20
+  bond: 80

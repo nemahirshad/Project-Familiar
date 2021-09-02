@@ -18,10 +18,11 @@ MonoBehaviour:
     text: Are you ready to face me?
   - character: Necromancer
     color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
-    text: Too bad!
+    text: You're nothing but a weak child!
   - character: Necromancer
     color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
-    text: You'll need to wait till september 2nd at the SAE showcase
+    text: Have at ye!
   question: {fileID: 0}
-  sceneChange: 1
-  scene: TBC
+  sceneChange: 0
+  scene: 
+  upgrade: {fileID: 0}

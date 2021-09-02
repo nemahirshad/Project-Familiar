@@ -10,7 +10,7 @@ public class AuraNode : ActionNode
         {
             bt.StartCoroutine(bt.player.GetComponent<PlayerStats>().ActivateAura(((FamiliarAgent)bt).stats.auraDuration));
 
-            ((FamiliarAgent)bt).stats.auraCountdown = ((FamiliarAgent)bt).stats.auraDuration;
+            ((FamiliarAgent)bt).stats.auraCountdown = ((FamiliarAgent)bt).stats.auraDuration * 5;
 
             return NodeOutcome.SUCCESS;
         }

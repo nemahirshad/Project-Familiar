@@ -9,6 +9,7 @@ public class HealNode : ActionNode
         if (((FamiliarAgent)bt).myStats.health >= ((FamiliarAgent)bt).myStats.maxHealth)
         {
             ((FamiliarAgent)bt).myStats.health = ((FamiliarAgent)bt).myStats.maxHealth;
+            ((FamiliarAgent)bt).myStats.heartSystem.DrawHearts(((FamiliarAgent)bt).myStats.health, ((FamiliarAgent)bt).myStats.maxHealth);
             return NodeOutcome.SUCCESS;
         }
 

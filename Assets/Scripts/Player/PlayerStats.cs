@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +11,12 @@ public class PlayerStats : MonoBehaviour
     public Color normal;
     public Color aura;
 
+    public RuntimeAnimatorController hat;
+    public Animator anim;
+
     public SpriteRenderer spriteRenderer;
+
+    public Sprite witchHat;
 
     public int spellDamage;
     public int staffDamage;
@@ -106,6 +112,8 @@ public class PlayerStats : MonoBehaviour
     public void UpgradeArmor()
     {
         armor = 1;
+        spriteRenderer.sprite = witchHat;
+        anim.runtimeAnimatorController = hat;
     }
 
     public void UpgradeHealth()

@@ -455,8 +455,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeObject: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
   normal: {r: 1, g: 1, b: 1, a: 1}
-  aura: {r: 0.7924528, g: 0.7804913, b: 0.7804913, a: 1}
+  aura: {r: 1, g: 0, b: 1, a: 1}
+  hat: {fileID: 0}
+  anim: {fileID: 7554112049675148114}
   spriteRenderer: {fileID: 7554112049675148137}
+  witchHat: {fileID: 1681784891305642776, guid: eaf69a250051e1a40b45a113e95ee0f7, type: 3}
   spellDamage: 1
   staffDamage: 1
   health: 3
@@ -714,10 +717,11 @@ MonoBehaviour:
   damage: 1
   health: 2
   maxHealth: 2
-  speed: 5
+  speed: 2
   attackRange: 2
   attackCooldown: 5
   attackCountdown: 0
+  enemy: 0
   heartSystem: {fileID: 0}
   bondSO: {fileID: 11400000, guid: 9881ee35a521cce4e95d1d73aa99655e, type: 2}
   text: {fileID: 0}
@@ -742,7 +746,7 @@ MonoBehaviour:
   anim: {fileID: 4635569221227974687}
   target: {fileID: 0}
   player: {fileID: 7554112049675148138}
-  range: 6
+  range: 20
   myStats: {fileID: 7554112050502462425}
   stats: {fileID: 7554112050502462425}
   home: {fileID: 0}
@@ -752,6 +756,10 @@ MonoBehaviour:
   newDir: {x: 0, y: 0}
   animationTimer: 0.5
   wanderTimer: 1
+  followCountdown: 0
+  chaseCountdown: 0
+  chasing: 0
+  following: 0
 --- !u!1 &7554112050520208399
 GameObject:
   m_ObjectHideFlags: 0

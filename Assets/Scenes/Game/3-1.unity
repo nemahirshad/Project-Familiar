@@ -407,6 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 1942567530705872424, guid: 4ee1a92ff31acdb4abe80be8f4a6b68a, type: 3}
   brokenHeartPrefab: {fileID: 4540895146661261688, guid: 4f1db5eb8e94853499e2db79faec06d4, type: 3}
+  scale: 1
 --- !u!114 &18253842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3437,6 +3438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 3780101954230433704, guid: c856d8db60a7cc140a3c78671e135882, type: 3}
   brokenHeartPrefab: {fileID: 4540895146661261688, guid: 4f1db5eb8e94853499e2db79faec06d4, type: 3}
+  scale: 1
 --- !u!114 &712595565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67221,7 +67223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1182680162
 Transform:
   m_ObjectHideFlags: 0
@@ -67277,7 +67279,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 005c49d370c154443a8f051bde451244, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -69593,6 +69595,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player And Familiar Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 7554112049675148115, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: hat
+      value: 
+      objectReference: {fileID: 9100000, guid: c8ef449243583b24ea1308c941833294, type: 2}
+    - target: {fileID: 7554112049675148115, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: levelZero
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7554112050502462420, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.53
@@ -69601,6 +69611,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.59
       objectReference: {fileID: 0}
+    - target: {fileID: 7554112050502462425, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 624389935}
+    - target: {fileID: 7554112050502462425, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
+      propertyPath: heartSystem
+      value: 
+      objectReference: {fileID: 712595564}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
 --- !u!114 &1600045204 stripped
@@ -69957,7 +69975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1725661328
 Transform:
   m_ObjectHideFlags: 0

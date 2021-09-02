@@ -8,11 +8,9 @@ public class RetreatNode : ActionNode
     {
         if (bt.myStats.health <= 1)
         {
-            bt.target = ((FamiliarAgent)bt).home;
-
-            bt.transform.position = Vector2.MoveTowards(bt.transform.position, bt.target.transform.position, bt.myStats.speed * Time.deltaTime);
-
-            if (Vector2.Distance(bt.target.transform.position, bt.transform.position) < bt.myStats.attackRange)
+            bt.transform.position = Vector2.MoveTowards(bt.transform.position, ((FamiliarAgent)bt).home.transform.position, bt.myStats.speed * Time.deltaTime);
+            
+            if (Vector2.Distance(((FamiliarAgent)bt).home.transform.position, bt.transform.position) < bt.myStats.attackRange)
             {
                 return NodeOutcome.SUCCESS;
             }

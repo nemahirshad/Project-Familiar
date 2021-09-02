@@ -6,14 +6,16 @@ public class FollowNode : ActionNode
 {
     public override NodeOutcome Execute(BehaviorTree bt)
     {
-        if (((FamiliarAgent)bt).stats.bond <= Random.Range(0, 100))
+        if (((FamiliarAgent)bt).stats.bond <= Random.Range(0, 200) && !((FamiliarAgent)bt).following || ((FamiliarAgent)bt).chasing)
         {
             return NodeOutcome.FAIL;
         }
 
+        ((FamiliarAgent)bt).following = true;
+
         bt.transform.position = Vector2.MoveTowards(bt.transform.position, bt.player.transform.position, ((FamiliarAgent)bt).myStats.speed * Time.deltaTime);
 
-        if (Vector2.Distance(bt.player.transform.position, bt.transform.position) < ((FamiliarAgent)bt).range/2)
+        if (Vector2.Distance(bt.player.transform.position, bt.transform.position) < ((FamiliarAgent)bt).range / 2)
         {
             return NodeOutcome.SUCCESS;
         }

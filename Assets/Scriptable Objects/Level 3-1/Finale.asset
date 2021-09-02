@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9aa6156c7c2f724db4b9bc02a9edcae, type: 3}
+  m_Name: Finale
+  m_EditorClassIdentifier: 
+  lines:
+  - character: Necromancer
+    color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    text: I have been defeated...?
+  - character: Necromancer
+    color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    text: That's not possible...
+  - character: Willow
+    color: {r: 1, g: 0, b: 0.75319386, a: 1}
+    text: You didn't have a chance against us!
+  - character: Necromancer
+    color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    text: Tell me witch, why did you abandon me...
+  - character: Willow
+    color: {r: 1, g: 0, b: 0.75319386, a: 1}
+    text: What do you mean?
+  - character: Necromancer
+    color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    text: I was talking to her...
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: The necromancer points at Marbles
+  - character: Necromancer
+    color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    text: I have done everything you asked me of...
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Marbles body transforms into a witch
+  - character: Marbles
+    color: {r: 1, g: 0.82530123, b: 0, a: 1}
+    text: I am sorry for how I've treated you
+  - character: Marbles
+    color: {r: 1, g: 0.82530123, b: 0, a: 1}
+    text: I have learned the error of my ways..
+  - character: Willow
+    color: {r: 1, g: 0, b: 0.75319386, a: 1}
+    text: Who are you?!
+  - character: Marbles
+    color: {r: 1, g: 0.82530123, b: 0, a: 1}
+    text: I'm the original witch of the prophecy and he was my familiar
+  - character: Marbles
+    color: {r: 1, g: 0.82530123, b: 0, a: 1}
+    text: I abused him and mistreated him so he swore vengance on me and transformed
+      me into this hideous creature
+  - character: Necromancer
+    color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    text: I will never forgive you witch...
+  - character: Marbles
+    color: {r: 1, g: 0.82530123, b: 0, a: 1}
+    text: I'm sorry small one
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: We need to get out of here!
+  - character: Willow
+    color: {r: 1, g: 0, b: 0.75319386, a: 1}
+    text: Wizzy?!
+  - character: Wizzy
+    color: {r: 0.6037736, g: 0.25290138, b: 0.25290138, a: 1}
+    text: Quick into the portal
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: Everyone gets into the portal except the witch Marbles
+  - character: Willow
+    color: {r: 1, g: 0, b: 0.75319386, a: 1}
+    text: What are you doing quickly!
+  - character: Marbles
+    color: {r: 1, g: 0.82530123, b: 0, a: 1}
+    text: I'm sorry Willow and thank you for taking care of me
+  - character: Marbles
+    color: {r: 1, g: 0.82530123, b: 0, a: 1}
+    text: I must make sure he is sealed away
+  - character: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    text: The portal activates and the last thing willow sees is a smile and a tear
+  question: {fileID: 0}
+  sceneChange: 1
+  scene: TBC
+  upgrade: {fileID: 0}

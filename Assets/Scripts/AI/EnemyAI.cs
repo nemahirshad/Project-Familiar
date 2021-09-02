@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     public GameObject player;
+    public BossAgent boss;
 
     public float chaseRange;
     public float attackRange;
@@ -27,6 +28,8 @@ public class EnemyAI : MonoBehaviour
     private Vector2 endPosition;
     public float timer;
     private float countDown;
+
+    public bool final;
 
     public GameObject deathEffect;
 
@@ -75,6 +78,4 @@ public class EnemyAI : MonoBehaviour
             anim.SetFloat("y", direction.y);
         }
     }
-
-    
 }

@@ -6,10 +6,12 @@ public class ChaseNode : ActionNode
 {
     public override NodeOutcome Execute(BehaviorTree bt)
     {
-        if (((FamiliarAgent)bt).stats.bond <= Random.Range(0, 100))
+        if (((FamiliarAgent)bt).stats.bond <= Random.Range(0, 100) && !((FamiliarAgent)bt).chasing || ((FamiliarAgent)bt).following)
         {
             return NodeOutcome.FAIL;
         }
+
+        ((FamiliarAgent)bt).chasing = true;
 
         if (!bt.target)
         {
@@ -21,6 +23,7 @@ public class ChaseNode : ActionNode
             }
             else
             {
+                ((FamiliarAgent)bt).chasing = false;
                 return NodeOutcome.FAIL;
             }
         }

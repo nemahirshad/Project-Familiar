@@ -15,6 +15,11 @@ public class FamiliarAgent : BehaviorTree
 
     public float animationTimer;
     public float wanderTimer;
+    public float followCountdown;
+    public float chaseCountdown;
+
+    public bool chasing;
+    public bool following;
 
     Vector2 currentPosition;
     Vector2 endPosition;
@@ -34,14 +39,16 @@ public class FamiliarAgent : BehaviorTree
         rootNode.childrenNodes[0].childrenNodes.Add(new HealNode());
         rootNode.childrenNodes[1].childrenNodes.Add(new FollowNode());
         rootNode.childrenNodes[1].childrenNodes.Add(new AuraNode());
-        rootNode.childrenNodes[1].childrenNodes.Add(new ChaseNode());
-        rootNode.childrenNodes[1].childrenNodes.Add(new AttackNode());
+        rootNode.childrenNodes[2].childrenNodes.Add(new ChaseNode());
+        rootNode.childrenNodes[2].childrenNodes.Add(new AttackNode());
 
         myStats = stats;
 
         stats.healCountdown = stats.healSpeed;
         stats.attackCountdown = stats.attackCooldown;
         stats.auraCountdown = stats.auraDuration;
+
+        followCountdown = stats.bond / 10;
     }
 
     public override void Update()
@@ -53,6 +60,7 @@ public class FamiliarAgent : BehaviorTree
         stats.attackCountdown -= Time.deltaTime;
 
         wanderCountdown -= Time.deltaTime;
+        animationCountdown -= Time.deltaTime;
 
         if (wanderCountdown <= 0)
         {
@@ -60,12 +68,34 @@ public class FamiliarAgent : BehaviorTree
             wanderCountdown = wanderTimer;
         }
 
-        animationCountdown -= Time.deltaTime;
         if (animationCountdown <= 0)
         {
             endPosition = transform.position;
             animationCountdown = animationTimer;
         }
+
+        if (following)
+        {
+            followCountdown -= Time.deltaTime;
+
+            if (followCountdown <= 0)
+            {
+                following = false;
+                followCountdown = stats.bond / 10;
+            }
+        }
+
+        if (chasing)
+        {
+            chaseCountdown -= Time.deltaTime;
+
+            if (chaseCountdown <= 0)
+            {
+                chasing = false;
+                chaseCountdown = stats.bond / 10;
+            }
+        }
+
         currentPosition = transform.position;
 
         Vector2 direction = endPosition - currentPosition;

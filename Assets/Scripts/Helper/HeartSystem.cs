@@ -7,6 +7,8 @@ public class HeartSystem : MonoBehaviour
     [SerializeField] GameObject heartPrefab;
     [SerializeField] GameObject brokenHeartPrefab;
 
+    [SerializeField] float scale = 1;
+
     public void DrawHearts(int hearts, int maxHearts)
     {
         foreach (Transform child in transform)
@@ -17,13 +19,13 @@ public class HeartSystem : MonoBehaviour
         {
             if (i + 1 <= hearts)
             {
-                GameObject heart = Instantiate(heartPrefab, transform.position, Quaternion.identity);
-                heart.transform.SetParent(transform);
+                GameObject heart = Instantiate(heartPrefab, transform.position, Quaternion.identity, transform);
+                heart.transform.localScale = new Vector3(scale, scale, scale);
             }
             else
             {
-                GameObject heart = Instantiate(brokenHeartPrefab, transform.position, Quaternion.identity);
-                heart.transform.SetParent(transform);
+                GameObject heart = Instantiate(brokenHeartPrefab, transform.position, Quaternion.identity, transform);
+                heart.transform.localScale = new Vector3(scale, scale, scale);
             }
         }
     }

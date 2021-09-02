@@ -19,6 +19,8 @@ public class EnemyStats : Stats
     public float leapRange;
     public float fireballCooldown;
     public float fireballCountdown;
+    public float zombieCooldown;
+    public float zombieCountdown;
 
     public int fireballCount;
 

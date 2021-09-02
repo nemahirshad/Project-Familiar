@@ -6,16 +6,26 @@ public class BossAgent : BehaviorTree
 {
     public EnemyStats stats;
 
+    public bool phase2;
+
     // Start is called before the first frame update
     void Start()
     {
-        rootNode = new SelectorNode();
-        rootNode.childrenNodes.Add(new SummonNode());
-        rootNode.childrenNodes.Add(new LeapNode());
-        rootNode.childrenNodes.Add(new FireballNode());
-        rootNode.childrenNodes.Add(new SequenceNode());
-        rootNode.childrenNodes[3].childrenNodes.Add(new ChaseNode());
-        rootNode.childrenNodes[3].childrenNodes.Add(new AttackNode());
+        if (!phase2)
+        {
+            rootNode = new SelectorNode();
+            rootNode.childrenNodes.Add(new SummonNode());
+            rootNode.childrenNodes.Add(new AttackNode());
+            rootNode.childrenNodes.Add(new FireballNode());
+        }
+        else
+        {
+            rootNode = new SelectorNode();
+            rootNode.childrenNodes.Add(new LeapNode());
+            rootNode.childrenNodes.Add(new SequenceNode());
+            rootNode.childrenNodes[1].childrenNodes.Add(new ChaseNode());
+            rootNode.childrenNodes[1].childrenNodes.Add(new AttackNode());
+        }
 
         myStats = stats;
     }
@@ -25,6 +35,16 @@ public class BossAgent : BehaviorTree
     {
         rootNode.Execute(this);
 
-        stats.fireballCooldown -= Time.deltaTime;
+        stats.fireballCountdown -= Time.deltaTime;
+        myStats.attackCountdown -= Time.deltaTime;
+        stats.zombieCountdown -= Time.deltaTime;
+
+        for (int i = 0; i < stats.zombies.Count; i++)
+        {
+            if (!stats.zombies[i])
+            {
+                stats.zombies.RemoveAt(i);
+            }
+        }
     }
 }

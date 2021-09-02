@@ -13,6 +13,8 @@ public class Stats : MonoBehaviour
     public float attackCooldown;
     public float attackCountdown;
 
+    public bool enemy;
+
     public HeartSystem heartSystem;
 
     // Start is called before the first frame update

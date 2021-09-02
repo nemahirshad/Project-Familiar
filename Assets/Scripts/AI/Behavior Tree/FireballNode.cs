@@ -17,7 +17,7 @@ public class FireballNode : ActionNode
 
             fireball.GetComponent<Fireball>().myStats = ((BossAgent)bt).stats;
             Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
-            rb.AddForce(((BossAgent)bt).stats.firePoint.up * ((BossAgent)bt).stats.fireballSpeed, ForceMode2D.Impulse);
+            rb.AddForce((bt.player.transform.position - bt.transform.position).normalized * ((BossAgent)bt).stats.fireballSpeed, ForceMode2D.Impulse);
 
             ((BossAgent)bt).stats.fireballCountdown = ((BossAgent)bt).stats.fireballCooldown;
 
