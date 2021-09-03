@@ -8,49 +8,55 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Main Menu.unity
     guid: 0c3442508c85be4468a09bf4d9e27acd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/0.unity
     guid: 8a88e58afeacc6b469d5a9375368d87f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/1-1 First Time.unity
     guid: 0dfca03564abdfc42aa87b9d001e7141
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/1-1 TP.unity
     guid: 4221635ceb600274eac68f558a2ce37d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/1-1.unity
     guid: 8ef1bc9547797cc4581be12892921464
   - enabled: 1
     path: Assets/Scenes/Game/1-2.unity
     guid: e114c95e32dd17f4faae56dc80757d52
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/1-2 Return.unity
     guid: fb660514f22890c428b19c303a6789e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/2-1 First Time.unity
     guid: 9b900f71a72edb74db6dc75a8a253822
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/2-1 TP.unity
     guid: 9af182b985c7a584289ef2fdefc871a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/2-1.unity
     guid: d21a872e9c80f33419ab817852addedd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/2-2.unity
     guid: fac65fae27662924098e3b0d4651d80b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/2-2 Return.unity
     guid: 944cfafff75e33b498ae1328ae346758
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/3-1.unity
     guid: 215e267865ea9ce468b9e007dfa964a9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/3-2.unity
     guid: 25008997daa6d2d4ab3807cd27d3cf60
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/Final.unity
     guid: 04fcc5854a36cac4190b03930a652cd7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/TBC.unity
     guid: 85cae3326c41f954e8868c064e2f7171
+  - enabled: 1
+    path: Assets/Scenes/Greybox.unity
+    guid: 825a9b322882d48409a3f3c23b18ac88
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

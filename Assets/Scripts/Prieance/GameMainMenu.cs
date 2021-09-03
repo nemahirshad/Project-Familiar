@@ -11,7 +11,7 @@ public class GameMainMenu : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene("0"); //goes to the scene with the specific name
+        SceneManager.LoadScene("Greybox"); //goes to the scene with the specific name
         Debug.Log("Loading to level 1");
     }
 
