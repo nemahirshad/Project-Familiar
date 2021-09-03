@@ -44,15 +44,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 340fff9a789b1354b9e658ca7b0c5060, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 88c58dc41a914b349a9e10248d0fd985, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 130
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -276,7 +276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7554112049675148138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 53.715473}
+  m_LocalPosition: {x: 0, y: -0.80000067, z: 53.715473}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children:
   - {fileID: 7554112049857055104}
@@ -436,6 +436,8 @@ MonoBehaviour:
   attackPoint: {fileID: 7554112048844900445}
   bulletPrefab: {fileID: 6480287703923671057, guid: df6e9ad405a43dd4db8e39a165eda102, type: 3}
   animator: {fileID: 7554112049675148114}
+  playSoundShoot: {fileID: 893101109697841806, guid: dc6bb5701ff0243468e3c19890f09291, type: 3}
+  playSoundMelee: {fileID: 8673090340768368569, guid: fc8898dba1b2dc948a70c69ff3b98bfd, type: 3}
   enemyLayers:
     serializedVersion: 2
     m_Bits: 8
@@ -456,7 +458,7 @@ MonoBehaviour:
   upgradeObject: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
   normal: {r: 1, g: 1, b: 1, a: 1}
   aura: {r: 1, g: 0, b: 1, a: 1}
-  hat: {fileID: 0}
+  hat: {fileID: 9100000, guid: c8ef449243583b24ea1308c941833294, type: 2}
   anim: {fileID: 7554112049675148114}
   spriteRenderer: {fileID: 7554112049675148137}
   witchHat: {fileID: 1681784891305642776, guid: eaf69a250051e1a40b45a113e95ee0f7, type: 3}
@@ -467,7 +469,7 @@ MonoBehaviour:
   armor: 0
   speed: 5
   spellCooldown: 2
-  sceneName: 
+  sceneName: 3-2
   levelZero: 0
   heartSystem: {fileID: 0}
 --- !u!1 &7554112049857055105
@@ -599,7 +601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7554112050502462422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.88, y: -0.4, z: 53.715473}
+  m_LocalPosition: {x: -1.88, y: -1.2, z: 53.715473}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 7554112048643482577}
@@ -822,7 +824,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

@@ -269,6 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  boss: {fileID: 0}
   chaseRange: 3
   attackRange: 1
   myStats: {fileID: 706608680273656300}
@@ -289,6 +290,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   anim: {fileID: 706608680273656301}
   timer: 0.5
+  final: 0
   deathEffect: {fileID: 606969578461660792, guid: 092de57923c393a4db5bd6e6511f0148, type: 3}
 --- !u!114 &706608680273656300
 MonoBehaviour:
@@ -309,6 +311,7 @@ MonoBehaviour:
   attackRange: 4
   attackCooldown: 2
   attackCountdown: 0
+  enemy: 0
   heartSystem: {fileID: 7087638801469515942}
   spawnPoints: []
   zombies: []
@@ -320,6 +323,8 @@ MonoBehaviour:
   leapRange: 0
   fireballCooldown: 0
   fireballCountdown: 0
+  zombieCooldown: 0
+  zombieCountdown: 0
   fireballCount: 0
   lept: 0
 --- !u!1 &6379680053690241705
@@ -454,6 +459,10 @@ PrefabInstance:
     - target: {fileID: 7751320759797361269, guid: 52844309b8e3e634090fd3034e69418e, type: 3}
       propertyPath: m_CellSize.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751320759797361270, guid: 52844309b8e3e634090fd3034e69418e, type: 3}
+      propertyPath: scale
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7751320759797361271, guid: 52844309b8e3e634090fd3034e69418e, type: 3}
       propertyPath: m_Pivot.x

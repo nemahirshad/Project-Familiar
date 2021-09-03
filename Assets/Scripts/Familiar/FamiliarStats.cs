@@ -7,8 +7,6 @@ public class FamiliarStats : Stats
 {
     public Bond bondSO;
 
-    public Text text;
-
     public int bond = 0;
     public int auraDuration;
 
@@ -31,8 +29,6 @@ public class FamiliarStats : Stats
 
     public override void Update()
     {
-        text.text = "Bond: " + bond;
-
         bondSO.bond = bond;
     }
 

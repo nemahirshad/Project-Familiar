@@ -46,6 +46,9 @@ EditorBuildSettings:
     guid: 215e267865ea9ce468b9e007dfa964a9
   - enabled: 1
     path: Assets/Scenes/Game/3-2.unity
+    guid: 25008997daa6d2d4ab3807cd27d3cf60
+  - enabled: 1
+    path: Assets/Scenes/Game/Final.unity
     guid: 04fcc5854a36cac4190b03930a652cd7
   - enabled: 1
     path: Assets/Scenes/Game/TBC.unity

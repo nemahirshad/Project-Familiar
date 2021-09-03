@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Sophie Badge
   m_EditorClassIdentifier: 
   lines:
-  - character: Soldier Sophie
+  - character: Sophie
     color: {r: 0, g: 0.43634176, b: 1, a: 1}
     text: You need my permission?
   - character: Willow
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
     text: Yeah, the guard in the next village said so.
-  - character: Soldier Sophie
+  - character: Sophie
     color: {r: 0, g: 0.43634176, b: 1, a: 1}
     text: '*Sigh* Well here'
   - character: 
     color: {r: 1, g: 1, b: 1, a: 1}
     text: You recieved a badge
-  - character: Soldier Sophie
+  - character: Sophie
     color: {r: 0, g: 0.43634176, b: 1, a: 1}
     text: This should let you pass
   question: {fileID: 0}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossAgent : BehaviorTree
 {
@@ -46,5 +47,11 @@ public class BossAgent : BehaviorTree
                 stats.zombies.RemoveAt(i);
             }
         }
+
+        if (stats.health <= 0)
+        {
+            SceneManager.LoadScene("Final");
+        }
+
     }
 }

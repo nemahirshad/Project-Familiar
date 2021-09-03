@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1912509468424505260}
   - component: {fileID: 1912509468424505261}
   - component: {fileID: 1912509468424505267}
-  - component: {fileID: 1912509468424505262}
   - component: {fileID: 1912509468424505263}
   m_Layer: 0
   m_Name: Save
@@ -112,19 +111,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1912509468424505262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912509468424505256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 533889021642d1743a575458d842ed59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  save: {fileID: 11400000, guid: ddcf64c1563419041ba25cff97e3f6a3, type: 2}
 --- !u!114 &1912509468424505263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,4 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d246dcf06c23448b35a78939f3dd4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save: {fileID: 1912509468424505262}
+  audioSource: {fileID: 0}
+  bond: {fileID: 0}
+  upgrade: {fileID: 0}
+  sceneName: 

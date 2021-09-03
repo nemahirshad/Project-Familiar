@@ -18,6 +18,7 @@ public class SummonNode : ActionNode
             zombie.transform.position = ((BossAgent)bt).stats.spawnPoints[Random.Range(0, ((BossAgent)bt).stats.spawnPoints.Count)].position;
             zombie.GetComponent<EnemyAI>().player = bt.player;
             zombie.GetComponent<EnemyAI>().final = true;
+            zombie.GetComponent<EnemyStats>().damage = 2;
             ((BossAgent)bt).stats.zombies.Add(zombie);
 
             return NodeOutcome.SUCCESS;

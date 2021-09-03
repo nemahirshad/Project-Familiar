@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   melee: 0
   ranged: 0
-  armor: 1
+  armor: 0
   health1: 0
   health2: 0
   health3: 0

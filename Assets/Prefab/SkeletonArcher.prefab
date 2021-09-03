@@ -133,6 +133,7 @@ MonoBehaviour:
   attackRange: 0
   attackCooldown: 0
   attackCountdown: 0
+  enemy: 0
   heartSystem: {fileID: 2675809750239019762}
   spawnPoints: []
   zombies: []
@@ -144,6 +145,8 @@ MonoBehaviour:
   leapRange: 0
   fireballCooldown: 0
   fireballCountdown: 0
+  zombieCooldown: 0
+  zombieCountdown: 0
   fireballCount: 0
   lept: 0
 --- !u!61 &5670132963895919685
@@ -631,6 +634,10 @@ PrefabInstance:
     - target: {fileID: 7751320759797361269, guid: 52844309b8e3e634090fd3034e69418e, type: 3}
       propertyPath: m_CellSize.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751320759797361270, guid: 52844309b8e3e634090fd3034e69418e, type: 3}
+      propertyPath: scale
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7751320759797361271, guid: 52844309b8e3e634090fd3034e69418e, type: 3}
       propertyPath: m_Pivot.x

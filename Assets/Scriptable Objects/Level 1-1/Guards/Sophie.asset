@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: Sophie
   m_EditorClassIdentifier: 
   lines:
-  - character: Soldier Sophie
+  - character: Sophie
     color: {r: 0, g: 0.43634176, b: 1, a: 1}
     text: Let me guess, you met Bob and Jim
   - character: Willow
     color: {r: 0.6117647, g: 0.019607844, b: 0.38431373, a: 1}
     text: Yeah, how did you know!
-  - character: Soldier Sophie
+  - character: Sophie
     color: {r: 0, g: 0.43634176, b: 1, a: 1}
     text: You look tired and those two idiots are the only ones capable of ruining
       your day in seconds
   question: {fileID: 0}
   sceneChange: 0
   scene: 
+  upgrade: {fileID: 0}

@@ -174,7 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 1942567530705872424, guid: 4ee1a92ff31acdb4abe80be8f4a6b68a, type: 3}
   brokenHeartPrefab: {fileID: 4540895146661261688, guid: 4f1db5eb8e94853499e2db79faec06d4, type: 3}
-  scale: 1
+  scale: 108
 --- !u!114 &18253842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1578,85 +1578,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 047e2fd1031210e46b3949c89c848123, type: 3}
---- !u!1 &624389933
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 624389934}
-  - component: {fileID: 624389936}
-  - component: {fileID: 624389935}
-  m_Layer: 5
-  m_Name: Bond Level
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &624389934
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624389933}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1959183973}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 33.30005, y: 899}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &624389935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624389933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Bond: 0'
---- !u!222 &624389936
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624389933}
-  m_CullTransparentMesh: 1
 --- !u!1001 &630059651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1759,7 +1680,7 @@ PrefabInstance:
     - target: {fileID: 7554112050502462425, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: text
       value: 
-      objectReference: {fileID: 624389935}
+      objectReference: {fileID: 0}
     - target: {fileID: 7554112050502462425, guid: b7099bc2ab67be14ca54f08c0a782993, type: 3}
       propertyPath: heartSystem
       value: 
@@ -2055,7 +1976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 3780101954230433704, guid: c856d8db60a7cc140a3c78671e135882, type: 3}
   brokenHeartPrefab: {fileID: 4540895146661261688, guid: 4f1db5eb8e94853499e2db79faec06d4, type: 3}
-  scale: 1
+  scale: 108
 --- !u!114 &712595565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2343,10 +2264,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName1: 
-  sceneName2: 
+  sceneName1: 3-1
+  sceneName2: 3-1
   playSound: {fileID: 0}
-  upgrade: {fileID: 0}
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!1 &783854131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2860,7 +2781,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1959183973}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -100297,10 +100218,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c672809340ab9a343b80c63b4af4d5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName1: 
-  sceneName2: 
+  sceneName1: 2-1
+  sceneName2: 2-1
   playSound: {fileID: 871790046}
-  upgrade: {fileID: 0}
+  upgrade: {fileID: 11400000, guid: 24f562add8a6f5841b5b509a1a5d7a2d, type: 2}
 --- !u!61 &1417446191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -104325,7 +104246,6 @@ RectTransform:
   - {fileID: 18253840}
   - {fileID: 712595563}
   - {fileID: 454147105}
-  - {fileID: 624389934}
   - {fileID: 936310975}
   m_Father: {fileID: 0}
   m_RootOrder: 4
